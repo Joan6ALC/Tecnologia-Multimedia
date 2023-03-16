@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Una webapp para descubrir los rincones más bonitos de la costa mallorquina">
+  <meta name="author" content="Carlos Veny, Juanjo Nieto, Joan Alcover">
+  <meta name="generator" content="">
+  <title id="title-listado">Calas de Mallorca - Listado</title>
+  <meta property="og:site_name" content="Calas de Mallorca">
+  <meta property="og:title" content="Calas de Mallorca - Listado" />
+  <meta property="og:description" content="Una webapp para descubrir los rincones más bonitos de la costa mallorquina" />
+  <meta property="og:image" itemprop="image" content="imagenes/playa-apple.png">
+  <meta property="og:type" content="website" />
+
+  <link href="bootstrap5/css/bootstrap.css" rel="stylesheet">
+  <link href="_css/estilo.css" rel="stylesheet">
+  <link href="_css/fondos.css" rel="stylesheet">
+  <link href="_css/carousel.css" rel="stylesheet">
+  <link href="_css/footer.css" rel="stylesheet">
+  <link href="_css/divider.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Mansalva' rel='stylesheet'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+  <link href="_css/wise_plantilla.css" rel="stylesheet">
+  <link href="_css/wise_responsive.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="_css/aos.css" rel="stylesheet">
+
+  <script src="bootstrap5/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="_js/aos.js"></script>
+  <script src="_js/listado.js"></script>
+
+  <link rel="icon" href="imagenes/playa.svg" type="image/icon type">
+  <link rel="apple-touch-icon" href="imagenes/apple-touch-icon.png">
+</head>
+
+<body onload="cambiarObjetosPorFila(); resizeListado(); leerListado()">
+  <!-- menu de navegacion -->
+  <header>
+    <nav class="navbar navbar-expand-xxl navbar-light fixed-top bg-blue">
+      <!--xl nuevo -->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="imagenes/logo.svg" alt="" width="130" height="52">
+        </a>
+        <button class="navbar-toggler btn-navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--btn-navbar-toggler nuevo -->
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a id="nav-calas" class="nav-link" href="listado.html?calas">Listado</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mapa.html">Mapa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="favoritos.html">Favoritos</a>
+            </li>
+            <li class="nav-item">
+              <a id="nav-actividades" class="nav-link nav-extra" href="listado.html?actividades">Actividades</a>
+            </li>
+            <li class="nav-item">
+              <a id="nav-pueblos" class="nav-link nav-extra" href="listado.html?pueblos">Pueblos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- fin menu de navegacion -->
+
+  <!-- introduccion con texto y titulo -->
+  <div class="top">.</div>
+  <div id="caja-listado" class="caja fondo-azul mg-top-sm font-poppins">
+    <h1 id="listado-titulo" class="text-start"></h1>
+    <p id="listado-descripcion"></p>
+    <!-- filtros -->
+    <div class="filtro-container mg-top-md mg-bt-lg">
+      <div class="filtro-container-item filtro-container">
+        <div id="conjunto-filtros" class="filtro-container-item mg-right-left-sm">
+          <label class="filtro-titulo">Filtros: </label>
+          <select id="desplegable-filtros" class="filtro-seleccion" onchange="crearFiltro('filtro'); filtrar_ordenar()">
+            <option value="default">Seleccionar</option>
+          </select>
+        </div>
+
+        <div class="filtro-container-item mg-right-left-sm">
+          <label id="label-municipios" class="filtro-titulo">Municipios: </label>
+          <select id="desplegable-municipios" class="filtro-seleccion"
+            onchange="crearFiltro('municipio'); filtrar_ordenar()">
+            <option value="default">Seleccionar</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="filtro-container-item mg-right-left-sm mg-top-sm-filtro">
+        <label class="filtro-titulo">Ordenar: </label>
+        <select id="desplegable-ordenacion" class="filtro-seleccion" onchange="filtrar_ordenar()">
+          <option value="nombre-down">Nombre (A - Z)</option>
+          <option value="nombre-up">Nombre (Z - A)</option>
+          <option value="valoracion-down">Valoración (+)</option>
+          <option value="valoracion-up">Valoración (-)</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- filtros seleccionados y objetos por fila -->
+  <div class="separador-lg"></div>
+  <div id="bg-listado" class="bg-listado-azul">
+    <div class="separador-md divider div-transparent"></div>
+    <div class="caja-objetos filtro-container-aplicados font-poppins">
+      <div id="selected-filters" class="filtrosObjetos-container-item">
+        <div id="label-filtros" class="caja-filtrosObjetos fondo-azulFuerte"><strong>Filtros:</strong></div>
+      </div>
+      <div class="filtrosObjetos-container-item">
+        <div id="label-obj-fila" class="caja-filtrosObjetos fondo-azulFuerte"><strong>Calas/fila:&nbsp</strong>
+          <button id="objetos-1" class="btn btn-light btn-dim" type="button" onclick="objetosPorFila(1)">1</button>
+          <button id="objetos-2" class="btn btn-light btn-dim btn-seleccionado" type="button"
+            onclick="objetosPorFila(2)">2</button>
+          <button id="objetos-3" class="btn btn-light btn-dim" type="button" onclick="objetosPorFila(3)">3</button>
+        </div>
+      </div>
+    </div>
+    <div id="num-resultados" class="caja-objetos font-poppins mg-top-xsm mg-bt-xsm-neg-cala text-center fs-5-5"></div>
+
+    <!-- tarjetas con informacion de las calas -->
+    <div class="separador-sm"></div>
+    <!-- <div id="aos-contenedor" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1500"></div> -->
+    <div id="listado-contenedor" class="caja-objetos calas-container font-poppins pd-bt-xl"></div>
+  </div>
+
+  <!-- footer -->
+  <div class="footer-dark">
+    <footer>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-6 col-md-3 item fix-columna">
+            <h3>Enlaces de interés</h3>
+            <ul>
+              <li><a href="https://www.booking.com/index.es.html" target="_blank" rel="noopener">Booking</a></li>
+              <li><a href="https://okrentacar.es/" target="_blank" rel="noopener">Rent a Car</a></li>
+              <li><a href="https://getbootstrap.com/" target="_blank" rel="noopener">Bootstrap</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 item text">
+            <h3>Calas de Mallorca</h3>
+            <p>Una pequeña recopilación de las mejores Calas de Mallorca hecha por un grupo de estudiantes de
+              Ingeniería
+              Informática en la Universitat de les Illes Balears. El formato de presentación es una webapp que usa
+              HTML,
+              CSS y JavaScript.<del></del></p>
+          </div>
+          <div class="col-sm-6 col-md-3 item ir-arriba-titulo fix-columna">
+            <h3>Ir Arriba</h3>
+            <a href="#"><i class="icon ion-arrow-up-c ir-arriba-flecha"></i></a>
+          </div>
+          <div class="col item social">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="icon ion-social-facebook"></i></a>
+            <a href="https://twitter.com/home" target="_blank" rel="noopener"><i class="icon ion-social-twitter"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener"><i class="icon ion-social-instagram-outline"></i></a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener"><i class="icon ion-social-youtube"></i></a>
+            <a href="https://github.com/" target="_blank" rel="noopener"><i class="icon ion-social-github"></i></a>
+          </div>
+        </div>
+        <p class="copyright">Calas de Mallorca © 2021</p>
+      </div>
+    </footer>
+  </div>
+  <!-- fin footer -->
+
+</body>
+
+</html>

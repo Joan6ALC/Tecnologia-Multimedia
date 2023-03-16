@@ -1,0 +1,18 @@
+/* Show it is fixed to the top */
+body {
+  /*min-height: 75rem;*/
+  padding-top: 4.5rem;
+}
+
+.bg-listado-azul { /*fondo de listado.html?calas*/
+  background-color:rgba(220, 255, 255, 0.432);
+}
+.bg-listado-verde { /*fondo de listado.html?actividades*/
+  background-color:rgba(220, 255, 238, 0.432);
+}
+.bg-cala-azul { /*fondo de cala.html?calas*/
+  background-color:rgba(236, 255, 255, 0.432);
+}
+.bg-cala-verde { /*fondo de cala.html?actividades*/
+  background-color:rgba(236, 255, 237, 0.432);
+}

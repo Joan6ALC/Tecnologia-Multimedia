@@ -1,0 +1,325 @@
+/*---------------------------------------------------------------------
+    import Fonts
+---------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+/*****----------------------------------------
+     1) font-family: 'Rajdhani', sans-serif;  
+     2) font-family: 'Poppins', sans-serif; 
+----------------------------------------*****/
+
+
+/*---------------------------------------------------------------------
+    import Files
+---------------------------------------------------------------------*/
+
+@import url(wise/animate.min.css);
+@import url(wise/normalize.css);
+@import url(wise/meanmenu.css);
+@import url(wise/owl.carousel.min.css);
+@import url(wise/slick.css);
+@import url(wise/jquery-ui.css);
+@import url(wise/nice-select.css);
+
+
+.boton-wise {
+	color: #1f1f1f;
+	text-decoration: none !important;
+	outline: none !important;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	margin: 10px;
+}
+.container-wise {
+	color: #666666;
+	font-size: 14px;
+	font-family: 'poppins', sans-serif;
+	line-height: 1.80857;
+	font-weight: normal;
+	overflow-x: hidden;
+}
+
+
+/** about section (BIENVENIDO) **/
+
+.about {
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background: #fff;
+}
+
+.top_layer {
+	position: relative;
+}
+
+.top_layer::before {
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	content: "";
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	height: 500px;
+	background-size: 100% 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	top: -180px;
+}
+
+.about .titlepage {
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+.about .titlepage h2 {
+	padding: 0px 0px 6px 0px;
+	font-size: 45px;
+	font-weight: bold;
+	color: #050303;
+	line-height: 46px;
+	border-bottom: #0faac6 solid 1px;
+	width: 410px;
+	margin: 0 auto;
+	margin-bottom: 0px;
+	margin-bottom: 20px;
+}
+
+.about .titlepage span {
+	color: #3d3c3c;
+	font-size: 17px;
+	line-height: 30px;
+}
+
+.about .img-box {
+	text-align: center;
+}
+
+.about .img-box figure {
+	margin: 0;
+	margin-bottom: 60px;
+}
+
+.about .img-box .boton-wise {
+	text-transform: uppercase;
+	border: #000 solid 1px;
+	background: #000;
+	width: 206px;
+	padding: 15px 0;
+	display: inline-block;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 30px;
+	color: #fff;
+}
+
+.about .img-box .boton-wise:hover {
+	border: #139fc2 solid 1px;
+	background: #139fc2;
+}
+/** end about section (BIENVENIDO) **/
+
+
+/** service section (NOTICIAS Y COMENTARIOS) **/
+
+.service {
+	padding-top: 90px;
+	padding-bottom: 60px;
+	background: #f4f4f4;
+}
+
+.service .titlepage span {
+	font-size: 16px;
+	color: #3d3c3c;
+}
+
+.service .service-box figure {
+	margin: 0px;
+}
+
+.service .service-box figure .img-wise {
+	width: 100%;
+}
+
+.green {
+	background-color: #6fb936;
+}
+
+.service .service-box .hoverle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 15px;
+}
+
+.service .service-box .hoverle .a-wise {
+	padding: 5px 30px;
+	color: #40cfa4;
+}
+
+.service .titlepage {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.service .titlepage h2 {
+	padding: 0px 0px 6px 0px;
+	font-size: 40px;
+	font-weight: bold;
+	color: #050303;
+	line-height: 46px;
+	border-bottom: #0f64c6 solid 1px;
+	width: 550px;
+	margin: 0 auto;
+	margin-bottom: 0px;
+	margin-bottom: 20px;
+}
+
+.service .service-box:hover .hoverle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	background: #0fc690d6;
+	align-items: center;
+	margin: 0 15px;
+}
+
+.service .service-box:hover .hoverle .a-wise {
+	border: #fff solid 2px;
+	background: transparent;
+	padding: 5px 30px;
+	color: #fff;
+}
+
+.eliminar {
+	margin-bottom: 500px;
+}
+/** end service section (NOTICIAS Y COMENTARIOS) **/
+
+
+/** nosotros section (SOBRE NOSOTROS) **/
+
+.nosotros {
+	padding-top: 90px;
+	padding-bottom: 60px;
+	background: #ffffff;
+}
+
+.nosotros .titlepage h2 { /*cambiar la longitud del subrayado del titulo*/
+	width: 250px;
+}
+
+.imagen-link-wise:hover {
+	border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(51, 139, 255);
+    overflow: hidden;
+}
+.imagen-link-wise:hover > .link-wise {
+	border: 2px solid white;
+  	background: none;
+  	color: white;
+  	padding: 5px 20px;
+  	font-size: 16px;
+  	cursor: pointer;
+}
+.imagen-link-wise:hover > .imagen-wise {
+	opacity: 0.4;
+}
+
+.imagen-wise {
+	border-radius: 50%;
+   	object-fit: cover;
+   	opacity: 1;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.imagen-link-wise {
+	margin: auto; /*Para centrar en la columna*/
+    display: block; /*Para centrar en la columna*/
+	position: relative;
+	width: 200px;
+}
+  
+/* Make the image responsive */
+.imagen-link-wise .imagen-wise {
+	width: 100%;
+	height: auto;
+}
+  
+  /* Style the button and place it in the middle of the container/image */
+.imagen-link-wise .link-wise {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background: none;
+	color: transparent;
+	border: none;
+}
+/** end nosotros section (SOBRE NOSOTROS) **/
+
+
+/** paraiso section (Nuestro paraiso) **/
+.paraiso {
+	padding-top: 90px;
+	padding-bottom: 60px;
+	background: #ffffff;
+}
+
+.paraiso .titlepage h2 { /*cambiar la longitud del subrayado del titulo*/
+	width: 400px;
+}
+.paraiso .titlepage span {
+	font-size: 16px;
+	color: #3d3c3c;
+}
+.video-calas {
+	width: 100%;
+	height: 100%;
+}
+/** end paraiso section (Nuestro paraiso) **/
+
+
+/** covid19 section (Covid-19) **/
+.covid19 {
+	padding-top: 90px;
+	padding-bottom: 0px;
+	background: #f4f4f4;
+}
+
+.covid19 .titlepage h2 { /*cambiar la longitud del subrayado del titulo*/
+	width: 230px;
+}
+.covid19 .titlepage span {
+	font-size: 16px;
+	color: #3d3c3c;
+}
+.covid19-widget {
+	margin: auto; /*Para centrar en la columna*/
+    display: block; /*Para centrar en la columna*/
+	position: relative;
+	width: 100%;
+	height: 500px;
+	border: 0px none;
+}
+/** end covid19 section (Covid-19) **/

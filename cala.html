@@ -1,0 +1,657 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Una webapp para descubrir los rincones más bonitos de la costa mallorquina">
+  <meta name="author" content="Carlos Veny, Juanjo Nieto, Joan Alcover">
+  <meta name="generator" content="">
+  <title id="title-cala">Calas de Mallorca - Cala</title>
+  <meta property="og:site_name" content="Calas de Mallorca">
+  <meta property="og:title" content="Calas de Mallorca - Cala" />
+  <meta property="og:description" content="Una webapp para descubrir los rincones más bonitos de la costa mallorquina" />
+  <meta property="og:image" itemprop="image" content="imagenes/playa-apple.png">
+  <meta property="og:type" content="website" />
+
+  <link href="bootstrap5/css/bootstrap.css" rel="stylesheet">
+  <link href="_css/estilo.css" rel="stylesheet">
+  <link href="_css/fondos.css" rel="stylesheet">
+  <link href="_css/carousel.css" rel="stylesheet">
+  <link href="_css/footer.css" rel="stylesheet">
+  <link href="_css/divider.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Mansalva' rel='stylesheet'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+  <link href="_css/wise_plantilla.css" rel="stylesheet">
+  <link href="_css/wise_responsive.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" rel="stylesheet">
+  <link href="_css/ol-ext.css" rel="stylesheet">
+  <link href="_css/aos.css" rel="stylesheet">
+
+  <script src="bootstrap5/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
+  <script src="_js/ol-ext.js"></script>
+  <script src="_js/aos.js"></script>
+  <script src="_js/cala.js"></script>
+
+  <link rel="icon" href="imagenes/playa.svg" type="image/icon type">
+  <link rel="apple-touch-icon" href="imagenes/apple-touch-icon.png">
+</head>
+
+<body id=bg-cala class="bg-cala-azul" onload="leerCala()">
+  <!-- menu de navegacion -->
+  <header>
+    <nav class="navbar navbar-expand-xxl navbar-light fixed-top bg-blue">
+      <!--xl nuevo -->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="imagenes/logo.svg" alt="" width="130" height="52">
+        </a>
+        <button class="navbar-toggler btn-navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--btn-navbar-toggler nuevo -->
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="listado.html?calas">Listado</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mapa.html">Mapa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="favoritos.html">Favoritos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-extra" href="listado.html?actividades">Actividades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-extra" href="listado.html?pueblos">Pueblos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- fin menu de navegacion -->
+
+  <!-- introduccion con texto y titulo -->
+
+  <div class="top">.</div>
+  <h1 id="cala-titulo" class="font-pmarker font-big separador-md"></h1>
+
+  <div class="caja-cala font-poppins mg-top-sm">
+    <!-- Municipio y favoritos -->
+    <div class="col-xl-7 fix-w-55vw mg-bt-xsm pd-right-3">
+      <div class="row justify-content-between fs-5">
+        <div id="cala-municipio" class="col-sm-5 cala-munic-mg">
+        </div>
+        <div id="cala-favorito-label" class="col-sm-6 cala-fav-text-end cala-fav-mg like-div">
+          <i id="fav-1" class="like-i" onclick="toggleFavorito('fav-1')"></i>
+        </div>
+      </div>
+    </div>
+    <!-- Fin Municipio y favoritos -->
+
+
+    <div class="row justify-content-between">
+
+      <!-- Columna principal -->
+      <div class="col-xl-7 box fix-w-55vw p-3 mg-bt-md">
+        <!-- Descripcion -->
+        <h3>Descripción</h3>
+        <div class="separador-sm"></div>
+        <p id="cala-descripcion"></p>
+
+        <!-- Servicios -->
+        <div class="separador-md"></div>
+        <h3 id="cala-servicios">Servicios</h3>
+        <div class="separador-sm"></div>
+        <p id="cala-historia"></p>
+        <!-- Fila 1 Servicios -->
+        <div id="servicios-fila-1" class="row fs-6 mg-bt-sm cala-servicio-altura">
+          <div class="col-md-4 cala-mg-auto-xsm text-center">
+            <div class="row">
+              <div class="col m-auto cala-text-start-end">
+                <div id="cala-tipoCala-l"><strong>Tipo de cala:</strong></div>
+              </div>
+              <div class="col m-auto text-start">
+                <div id="cala-tipoCala"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 cala-mg-auto-xsm text-center">
+            <div class="row">
+              <div class="col m-auto cala-text-start-end">
+                <div id="cala-tipoAcceso-l"><strong>Tipo de acceso:</strong></div>
+              </div>
+              <div class="col m-auto text-start">
+                <div id="cala-tipoAcceso"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 cala-mg-auto-xsm text-center">
+            <div class="row">
+              <div class="col m-auto cala-text-start-end">
+                <div id="cala-minusvalidos-l"><strong>Acceso minusválidos:</strong></div>
+              </div>
+              <div class="col m-auto text-start">
+                <div id="cala-minusvalidos"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin Fila 1 Servicios -->
+
+        <!-- Fila 2 Servicios -->
+        <div id="servicios-fila-2" class="row fs-6 mg-bt-sm cala-servicio-altura">
+          <div class="col-md-4 cala-mg-auto-xsm text-center">
+            <div class="row">
+              <div class="col m-auto cala-text-start-end">
+                <div id="cala-nudista-l"><strong>Nudista:</strong></div>
+              </div>
+              <div class="col m-auto text-start">
+                <div id="cala-nudista"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 cala-mg-auto-xsm text-center">
+            <div class="row">
+              <div class="col m-auto cala-text-start-end">
+                <div id="cala-hamacas-l"><strong>Hamacas:</strong></div>
+              </div>
+              <div class="col m-auto text-start">
+                <div id="cala-hamacas"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 cala-mg-auto-xsm text-center">
+            <div class="row">
+              <div class="col m-auto cala-text-start-end">
+                <div id="cala-sombrillas-l"><strong>Sombrillas:</strong></div>
+              </div>
+              <div class="col m-auto text-start">
+                <div id="cala-sombrillas"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin Fila 2 Servicios -->
+
+        <!-- Fila 3 Servicios -->
+        <div id="servicios-fila-3" class="row fs-6 mg-bt-sm cala-servicio-altura">
+          <div class="col-md-4 cala-mg-auto-xsm text-center">
+            <div class="row">
+              <div class="col m-auto cala-text-start-end">
+                <div id="cala-parking-l"><strong>Parking:</strong></div>
+              </div>
+              <div class="col m-auto text-start">
+                <div id="cala-parking"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 cala-mg-auto-xsm text-center">
+            <div class="row">
+              <div class="col m-auto cala-text-start-end">
+                <div id="cala-animales-l"><strong>Animales:</strong></div>
+              </div>
+              <div class="col m-auto text-start">
+                <div id="cala-animales"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 cala-mg-auto-xsm text-center">
+            <div class="row">
+              <div class="col m-auto cala-text-start-end">
+                <div id="cala-duchas-l"><strong>Duchas:</strong></div>
+              </div>
+              <div class="col m-auto text-start">
+                <div id="cala-duchas"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin Fila 3 Servicios -->
+
+        <!-- Fila 4 Servicios -->
+        <div id="servicios-fila-4" class="row fs-6 mg-bt-sm cala-servicio-altura">
+          <div class="col-md-4 cala-mg-auto-xsm text-center">
+            <div class="row">
+              <div class="col m-auto cala-text-start-end">
+                <div id="cala-lavabos-l"><strong>Lavabos:</strong></div>
+              </div>
+              <div class="col m-auto text-start">
+                <div id="cala-lavabos"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 cala-mg-auto-xsm text-center">
+            <div class="row">
+              <div class="col m-auto cala-text-start-end">
+                <div id="cala-embarcaciones-l"><strong>Alquiler botes:</strong></div>
+              </div>
+              <div class="col m-auto text-start">
+                <div id="cala-embarcaciones"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 cala-mg-auto-xsm text-center">
+            <div class="row">
+              <div class="col m-auto cala-text-start-end">
+                <div id="cala-socorrista-l"><strong>Socorrista:</strong></div>
+              </div>
+              <div class="col m-auto text-start">
+                <div id="cala-socorrista"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin Fila 4 Servicios -->
+
+        <!-- Fila 5 Servicios -->
+        <div id="servicios-fila-5" class="row fs-6 mg-bt-sm cala-servicio-altura">
+          <div class="col-md-4 cala-mg-auto-xsm text-center">
+            <div class="row">
+              <div class="col m-auto cala-text-start-end">
+                <div><strong>Boyas:</strong></div>
+              </div>
+              <div class="col m-auto text-start">
+                <div id="cala-boyas"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 cala-mg-auto-xsm text-center">
+            <div class="row">
+              <div class="col m-auto cala-text-start-end">
+                <div><strong>Pier:</strong></div>
+              </div>
+              <div class="col m-auto text-start">
+                <div id="cala-pier"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 cala-mg-auto-xsm text-center">
+            <div class="row">
+              <div class="col m-auto cala-text-start-end">
+                <div><strong>Bar:</strong></div>
+              </div>
+              <div class="col m-auto text-start">
+                <div id="cala-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin Fila 5 Servicios -->
+        <div id="cala-horario"></div>
+
+        <!-- Carousel de Imagenes -->
+        <div class="separador-lg"></div>
+        <h3>Galería de imágenes</h3>
+        <div class="separador-sm2"></div>
+        <div id="mi-carousel2" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+          <div id="carousel-fotos" class="carousel-inner car-img">
+            <!-- <div class="carousel-item active">
+              <img id="cala-foto0" class="d-block car-img" alt="...">
+            </div> -->
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#mi-carousel2"
+            data-bs-slide="prev"></button>
+          <button class="carousel-control-next" type="button" data-bs-target="#mi-carousel2"
+            data-bs-slide="next"></button>
+
+          <div class="separador-sm"></div>
+          <ol id="carousel-fotos-t" class="carousel-indicators car-static">
+            <!-- <li class="list-inline-item"> <a id="carousel-selector-0" class="active" data-bs-slide-to="0"
+                aria-current="true" data-bs-target="#mi-carousel2"> <img id="cala-foto0-t"
+                  class="img-fluid car-thumbnail">
+              </a> </li> -->
+          </ol>
+        </div>
+        <!-- Fin Carousel de Imagenes -->
+
+        <!-- Valoraciones -->
+        <div class="separador-lg"></div>
+        <h3 id="valoraciones">Valoraciones</h3>
+        <div class="separador-sm"></div>
+        <div id="escribir-comentario" class="comments-app">
+          <!-- Escribir comentario -->
+          <div class="comment-form">
+            <div class="comment-avatar">
+              <img src="imagenes/avatar.png" alt="avatar">
+            </div>
+            <form id="form" class="form" name="form">
+              <div class="form-row">
+                <input id="comment-nombre" class="input" placeholder=" Nombre" maxlength="12">
+              </div>
+              <div class="form-row">
+                <textarea id="comment-texto" class="input" placeholder="Añade un comentario..."
+                  maxlength="500"></textarea>
+              </div>
+              <div class="d-flex justify-content-between">
+                <div class="rating fs-4">
+                  <label>
+                    <input id="val-1" type="radio" name="stars" value="1" onclick="setRating(1)" />
+                    <span class="icon">★</span>
+                  </label>
+                  <label>
+                    <input id="val-2" type="radio" name="stars" value="2" onclick="setRating(2)" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                  </label>
+                  <label>
+                    <input id="val-3" type="radio" name="stars" value="3" onclick="setRating(3)" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                  </label>
+                  <label>
+                    <input id="val-4" type="radio" name="stars" value="4" onclick="setRating(4)" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                  </label>
+                  <label>
+                    <input id="val-5" type="radio" name="stars" value="5" onclick="setRating(5)" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                  </label>
+                </div>
+                <div id="comment-puntuacion">0</div>
+                <div class="form-row my-auto">
+                  <input id="comment-anonymous" type="checkbox">
+                  <label class="fs-6-5">Anónimo</label>
+                </div>
+              </div>
+              <div id="container-enviar" class="form-row d-flex justify-content-start">
+                <input type="submit" value="Enviar" onclick="enviarComentario()">
+              </div>
+            </form>
+          </div>
+          <!-- Fin Escribir comentario -->
+
+          <!-- Listado de comentarios -->
+          <div class="separador-lg"></div>
+          <div class="mg-bt-lg-neg text-center fs-4 d-flex justify-content-center">
+            <div id="cala-puntuacion" class="my-auto mg-right-left-xsm"></div>
+            <span class="fa fa-star checked my-auto mg-right-left-xsm"></span>
+          </div>
+          <div class="separador-md divider div-transparent"></div>
+          <div id="cala-contenedor" class="comments" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1300">
+          </div>
+          <!-- Fin Listado de comentarios -->
+        </div>
+        <!-- Fin Valoraciones -->
+      </div>
+      <!-- Fin Columna principal -->
+
+      <!-- Columna mapa y meteo -->
+      <div class="col-xl-3 box mg-left-sm-cala fix-w-500 p-3 mg-bt-md">
+        <h4>Mapa</h4>
+        <div class="separador-sm"></div>
+        <div id="cala-mapa" class="mapa-cala"></div>
+
+        <div class="separador-md"></div>
+        <h4>Meteorología</h4>
+        <!-- Meteo ahora -->
+        <h5 id="ahora-lugar"></h5>
+        <div class="row fs-6">
+          <div class="col m-auto text-center">
+            <img id="ahora-icono" alt="ahora">
+          </div>
+          <div class="col m-auto text-center">
+            <div id="ahora-descripcion"></div>
+          </div>
+          <div class="col m-auto text-center">
+            <div id="ahora-temperatura"></div>
+          </div>
+        </div>
+        <div class="row fs-7 mg-bt-sm">
+          <div class="col m-auto text-center">
+            <div class="row">
+              <div class="col m-auto text-end">
+                <img src="imagenes/meteo/viento.png" alt="viento">
+              </div>
+              <div class="col m-auto text-start">
+                <div id="ahora-viento"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col m-auto text-center">
+            <div class="row">
+              <div class="col m-auto text-end">
+                <img src="imagenes/meteo/humedad.png" alt="humedad">
+              </div>
+              <div class="col m-auto text-start">
+                <div id="ahora-humedad"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col m-auto text-center">
+            <div class="row">
+              <div class="col m-auto text-end">
+                <img src="imagenes/meteo/uv.png" alt="uv">
+              </div>
+              <div class="col m-auto text-start">
+                <div id="ahora-uv"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row fs-7 mg-bt-sm">
+          <div class="col m-auto text-center">
+            <div class="row">
+              <div class="col m-auto text-end">
+                <img src="imagenes/meteo/nubes.png" alt="nubes">
+              </div>
+              <div class="col m-auto text-start">
+                <div id="ahora-nubes"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col m-auto text-center">
+            <div class="row">
+              <div class="col m-auto text-end">
+                <img src="imagenes/meteo/salida-sol.png" alt="salida sol">
+              </div>
+              <div class="col m-auto text-start">
+                <div id="ahora-sunrise"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col m-auto text-center">
+            <div class="row">
+              <div class="col m-auto text-end">
+                <img src="imagenes/meteo/puesta-sol.png" alt="puesta sol">
+              </div>
+              <div class="col m-auto text-start">
+                <div id="ahora-sunset"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin Meteo ahora -->
+
+        <h5 class="mg-top-md"> Próximos 5 días</h5>
+        <!-- Dia 0 -->
+        <div class="row fs-6 mg-bt-sm">
+          <div id="dia0-dia" class="fs-5-5"></div>
+          <div class="col m-auto text-start">
+            <img id="dia0-icono" alt="dia 0">
+          </div>
+          <div class="col m-auto text-center">
+            <div id="dia0-temperatura"></div>
+          </div>
+          <div class="col m-auto text-center">
+            <div class="row">
+              <div class="col m-auto text-center">
+                <img src="imagenes/meteo/viento.png" alt="viento">
+              </div>
+              <div class="col m-auto text-center">
+                <div id="dia0-viento"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin Dia 0 -->
+
+        <!-- Dia 1 -->
+        <div class="row fs-6 mg-bt-sm">
+          <div id="dia1-dia" class="fs-5-5"></div>
+          <div class="col m-auto text-start">
+            <img id="dia1-icono" alt="dia 1">
+          </div>
+          <div class="col m-auto text-center">
+            <div id="dia1-temperatura"></div>
+          </div>
+          <div class="col m-auto text-center">
+            <div class="row">
+              <div class="col m-auto text-center">
+                <img src="imagenes/meteo/viento.png" alt="viento">
+              </div>
+              <div class="col m-auto text-center">
+                <div id="dia1-viento"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin Dia 1 -->
+
+        <!-- Dia 2 -->
+        <div class="row fs-6 mg-bt-sm">
+          <div id="dia2-dia" class="fs-5-5"></div>
+          <div class="col m-auto text-start">
+            <img id="dia2-icono" alt="dia 2">
+          </div>
+          <div class="col m-auto text-center">
+            <div id="dia2-temperatura"></div>
+          </div>
+          <div class="col m-auto text-center">
+            <div class="row">
+              <div class="col m-auto text-center">
+                <img src="imagenes/meteo/viento.png" alt="viento">
+              </div>
+              <div class="col m-auto text-center">
+                <div id="dia2-viento"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin Dia 2 -->
+
+        <!-- Dia 3 -->
+        <div class="row fs-6 mg-bt-sm">
+          <div id="dia3-dia" class="fs-5-5"></div>
+          <div class="col m-auto text-start">
+            <img id="dia3-icono" alt="dia 3">
+          </div>
+          <div class="col m-auto text-center">
+            <div id="dia3-temperatura"></div>
+          </div>
+          <div class="col m-auto text-center">
+            <div class="row">
+              <div class="col m-auto text-center">
+                <img src="imagenes/meteo/viento.png" alt="viento">
+              </div>
+              <div class="col m-auto text-center">
+                <div id="dia3-viento"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin Dia 3 -->
+
+        <!-- Dia 4 -->
+        <div class="row fs-6 mg-bt-sm">
+          <div id="dia4-dia" class="fs-5-5"></div>
+          <div class="col m-auto text-start">
+            <img id="dia4-icono" alt="dia 4">
+          </div>
+          <div class="col m-auto text-center">
+            <div id="dia4-temperatura"></div>
+          </div>
+          <div class="col m-auto text-center">
+            <div class="row">
+              <div class="col m-auto text-center">
+                <img src="imagenes/meteo/viento.png" alt="viento">
+              </div>
+              <div class="col m-auto text-center">
+                <div id="dia4-viento"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin Dia 4 -->
+        <!-- Fin Meteo -->
+
+        <!-- Pueblo cercano -->
+        <div class="separador-md"></div>
+        <h4 id="pueblo-label">Pueblo más cercano</h4>
+        <div id="pueblo" class="card card-pueblo card-borde-verde">
+          <a id="pueblo-a" href="cala.html"><img id="pueblo-img" class="card-img-top" alt="..."></a>
+          <div class="card-body">
+            <h5 id="pueblo-nombre" class="card-title fs-4-card-title"></h5>
+            <div id="pueblo-distancia" class="mg-top-sm-neg mg-bt-xsm fs-5-6">Distancia: 20 km</div>
+            <p id="pueblo-descripcion" class="fs-5-card-text"></p>
+            <a id="pueblo-bt" class="btn btn-primary btn-sm">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <!-- Fin Columna mapa y meteo -->
+    </div>
+  </div>
+  <div class="separador-lg"></div>
+
+  <!-- footer -->
+  <div class="footer-dark">
+    <footer>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-6 col-md-3 item fix-columna">
+            <h3>Enlaces de interés</h3>
+            <ul>
+              <li><a href="https://www.booking.com/index.es.html" target="_blank" rel="noopener">Booking</a></li>
+              <li><a href="https://okrentacar.es/" target="_blank" rel="noopener">Rent a Car</a></li>
+              <li><a href="https://getbootstrap.com/" target="_blank" rel="noopener">Bootstrap</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 item text">
+            <h3>Calas de Mallorca</h3>
+            <p>Una pequeña recopilación de las mejores Calas de Mallorca hecha por un grupo de estudiantes de
+              Ingeniería
+              Informática en la Universitat de les Illes Balears. El formato de presentación es una webapp que usa
+              HTML,
+              CSS y JavaScript.<del></del></p>
+          </div>
+          <div class="col-sm-6 col-md-3 item ir-arriba-titulo fix-columna">
+            <h3>Ir Arriba</h3>
+            <a href="#"><i class="icon ion-arrow-up-c ir-arriba-flecha"></i></a>
+          </div>
+          <div class="col item social">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="icon ion-social-facebook"></i></a>
+            <a href="https://twitter.com/home" target="_blank" rel="noopener"><i class="icon ion-social-twitter"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener"><i class="icon ion-social-instagram-outline"></i></a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener"><i class="icon ion-social-youtube"></i></a>
+            <a href="https://github.com/" target="_blank" rel="noopener"><i class="icon ion-social-github"></i></a>
+          </div>
+        </div>
+        <p class="copyright">Calas de Mallorca © 2021</p>
+      </div>
+    </footer>
+  </div>
+  <!-- fin footer -->
+</body>
+
+</html>

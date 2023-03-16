@@ -1,0 +1,56 @@
+{
+    "index": {
+        "titulo": "CALAS DE MALLORCA",
+        "subtitulo": "Una webapp para descubrir los rincones más bonitos de la costa mallorquina",
+        "carousel": [
+            "imagenes/carousel/carousel1.jpg",
+            "imagenes/carousel/carousel2.jpg",
+            "imagenes/carousel/carousel3.jpg",
+            "imagenes/carousel/carousel4.jpg",
+            "imagenes/carousel/carousel5.jpg",
+            "imagenes/carousel/carousel6.jpg",
+            "imagenes/carousel/carousel7.jpg",
+            "imagenes/carousel/carousel8.jpg",
+            "imagenes/carousel/carousel9.jpg",
+            "imagenes/carousel/carousel10.jpg",
+            "imagenes/carousel/carousel11.jpg",
+            "imagenes/carousel/carousel12.jpg",
+            "imagenes/carousel/carousel13.jpg",
+            "imagenes/carousel/carousel14.jpg",
+            "imagenes/carousel/carousel15.jpg",
+            "imagenes/carousel/carousel16.jpg",
+            "imagenes/carousel/carousel17.jpg",
+            "imagenes/carousel/carousel18.jpg"
+        ],
+        "carousel-n": [
+            "imagenes/carousel/carousel-n1.jpg",
+            "imagenes/carousel/carousel-n2.jpg",
+            "imagenes/carousel/carousel-n3.jpg",
+            "imagenes/carousel/carousel-n4.jpg",
+            "imagenes/carousel/carousel-n5.jpg",
+            "imagenes/carousel/carousel-n6.jpg",
+            "imagenes/carousel/carousel-n7.jpg",
+            "imagenes/carousel/carousel-n8.jpg",
+            "imagenes/carousel/carousel-n9.jpg",
+            "imagenes/carousel/carousel-n10.jpg",
+            "imagenes/carousel/carousel-n11.jpg",
+            "imagenes/carousel/carousel-n12.jpg",
+            "imagenes/carousel/carousel-n13.jpg",
+            "imagenes/carousel/carousel-n14.jpg"
+        ],
+        "titulo-1": "Bienvenid@",
+        "descripcion-1": "¿Te apetece descubrir algunas de las calas más recónditas y exclusivas de mallorca? ¿Vas a venir a Mallorca y no sabes que calas visitar? Sea cual sea tu motivo, ¡este es tu sitio!. En esta aplicación web podrás encontrar muchas de las mejores calas de Mallorca; ya sea por su localización, sus agua turquesas y transparentes, o la sensación de tener la cala para ti solo.<br>Para tu comodidad te permitimos aplicar diversos filtros, añadir comentarios, ver fotos y la localización de la cala, entre otras cosas. Te animamos a que descubras y disfrutes del paraíso mallorquín gracias a esta web-app. ¡Empieza ya!",
+        "imagen-1": "imagenes/bienvenido.png",
+        "titulo-2": "Noticias y Comentarios",
+        "titulo-3": "Nuestro paraíso",
+        "descripcion-3": "Mallorca es mundialmente conocida por sus hermosas playas, lo que a veces provoca que por desconocimiento sólo visitemos las que figuran en las guías turísticas: aquellas que son más grandes, masificadas y urbanas. Sin embargo, hay otros parajes de la isla, las calas, a veces sólo conocidas por locales, que te ofrecen otro tipo de turismo playero: entornos naturales vírgenes, aguas cristalinas, poca masificación y la sensación de estar en el paraíso muy pero que muy lejos del mundo.",
+        "video-3": [
+            "videos/video-paraiso.mp4",
+            "videos/video-paraiso.webm"
+        ],
+        "titulo-4": "Covid-19",
+        "descripcion-4": "Debido a la situación de pandemia mundial que nos ha tocado vivir, desde 'Calas de Mallorca' recomendamos que siempre se respete la normativa española vigente y se tenga plena consciencia sobre los actos realizados. El uso de mascarilla es obligatorio en todas las playas de Mallorca y se debe respetar la distancia de seguridad de, como mínimo, 2 metros. Si tiene síntomas o no se encuentra bien, no vaya a ninguna cala ni salga de casa, llame al 061 y le indicarán como proceder. En 'Calas de Mallorca' nos preocupamos por tu salud.<brs>A continuación se puede ver el semáforo actualizado con la situación en la que se encuentran las Islas Baleares.",
+        "titulo-5": "Nosotros",
+        "descripcion-5": "Probablemente te estarás preguntando quien está detras de esta aplicación web. Pues bien, somos Carlos, Juanjo y Joan, un grupo de compañeros que estudiamos Ingeniería Informatica en la Universitat de les Illes Balears. Actualmente estamos en tercero, y en la asignatura de Tecnología Multimedia se nos ha propuesto realizar una web-app como trabajo final. La temática era libre y nosotros nos hemos decantado por nuestras calas mallorquinas.<br>Para contactar con nosotros puedes usar las imagenes inferiores como enlace a nuestras redes sociales."
+    }
+}

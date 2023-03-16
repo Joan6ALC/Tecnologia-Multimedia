@@ -1,0 +1,3146 @@
+[
+    {
+        "nom": "Palma",
+        "descripcio": "Capital de les Illes Balears",
+        "detall": "",
+        "tipus": "poble",
+        "identificador": "",
+        "preu": {
+            "import": "",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "",
+            "email": "",
+            "xarxes" : {
+                "web": "",
+                "facebook" : "",
+                "twitter" : "https://twitter.com/ajuntpalma?ref_src=twsrc%5Etfw",
+                "instagram": ""
+            }
+        },
+        "puntuacio": 5,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/palma.jpg",
+            "https://beyls.netlify.app/imatges/palma1.jpg",
+            "https://beyls.netlify.app/imatges/palma2.jpg",
+            "https://beyls.netlify.app/imatges/palma3.jpg"
+        ],
+        "videos":[
+            {
+                "tipus": "youtube",
+                "url": "https://www.youtube.com/embed/WGEhZWEiO0A"
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{
+            "address": "",
+            "lat": 39.571625,
+            "long": 2.650544,
+            "city": "Palma",
+            "Country": "Espanya",
+            "zip": ""
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dm":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dx":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dj": [
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dv":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "ds":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dg":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "introduccio": "<p>Palma, antigament de Mallorca i també dita col·loquialment Ciutat, és un municipi i una ciutat de l'illa de Mallorca, capital de la comunitat autònoma de les Illes Balears.</p><p>El seu terme ocupa una extensió de 208,63 km² que s'estenen entre la Serra de na Burguesa, el Prat de Sant Jordi i els peus de la Serra de Tramuntana. La ciutat està situada al centre de la badia de Palma, a uns 13 metres d'altura sobre el nivell del mar. Diversos torrents la travessen, com el de la Riera o el Torrent Gros, tot desembocant a la Mediterrània.</p><p>Amb 409.578 habitants segons les xifres oficials de l'INE amb data 1 de gener de 2018, Palma és la vuitena ciutat més gran d'Espanya per població, la tercera dels territoris de parla catalana i la primera de Mallorca.</p><p>Va ser fundada amb el nom de Palma, pel cònsol romà Quint Cecili Metel Baleàric, poc més tard de l'any 123 aC. Més de cinc segles més tard, el 455 fou conquerida pels vàndals i pels romans d'Orient el 534, que degueren abandonar l'illa abans que la conquerissin els àrabs el 903, els quals l'anomenaren Mayurqa. Finalment va ser conquerida pel rei Jaume I el 31 de desembre de 1229, i així esdevingué la pròspera ciutat de Mallorca, ciutat mestra del seu propi regne, que va decaure després de la seva incorporació a la Corona d'Aragó en 1279. Arran de l'entrada en vigor dels Decrets de Nova Planta en 1715, tot el conjunt de l'ordenança municipal va deixar de ser escrit en català i la ciutat va recuperar el seu topònim romà, Palma.</p><p>En el segle xx va ser protagonista de l'explosió d'un intens auge turístic que la va usar com a destinació de vacances durant les dècades de 1960 i 1970. Actualment constitueix un notable centre econòmic i cultural a nivell insular i autonòmic.</p>",
+            "historia": "<p>Tot i que les fonts apunten que Palma va ser fundada immediatament després de la conquesta, el 123 aC, l'arqueologia ha demostrat que les primeres estructures de la ciutat daten de la primera meitat del segle i aC, de manera que hom hipotesitza que en un primer moment es tractaria d'un simple campament i anys més tard es refundaria la ciutat. Extrapolant les dades que hom té de la germana Pol·lèntia, hom pensa que al lloc on es fundà la ciutat hi podia haver un assentament indígena, però es tracta d'una hipòtesi sense proves que la recolzin. Per altra banda, a la zona de Son Espases s'ha localitzat un campament romà amb una primera ocupació del segle ii aC; això ha estat interpretat de manera que es tractaria d'un primer assentament militar previ a la fundació de la ciutat.</p><p>Ben igual que Pol·lèntia, hom pensa que Palma hauria estat fundada en un primer moment el segle ii aC, probablement com a colònia de dret llatí, entre els quals hi podia haver ciutadans romans. Una hipòtesi versemblant seria que els colons provendrien del Picè i que prengué el nom de Palma per l'ager Palmensis, del qual la localitat picena de Torre di Palme pot ser un vestigi. Després de la Guerra Social o de les Guerres Sertorianes, Palma hauria passat a ser municipi de dret romà, tal com indiquen les fonts escrites, ja d'època imperial. De fet, una primera fundació el segle ii aC amb poca incidència sobre el territori i una refundació com a municipi de dret romà a mitjan segle i aC encaixa amb l'evidència arqueològica, que documenta la primera activitat entorn d'aquesta segona etapa. Les fonts epigràfiques indiquen que la major part dels colons pertanyien a la tribu Velina, a la qual pertanyien la major part de poblacions del Picè.</p><p>Pel que fa a la trama urbana, amb tota seguretat la Palma romana se situava a l'actual barri de l'Almudaina. El recinte murari anava del Palau de l'Almudaina al Palau del Bisbe i de Cort al Mirador, mentre que el fòrum se situaria als quatre cantons que formen els carrers de Sant Roc i de l'Estudi General, el cardo i el decumanus respectivament. Els camins que sortien de la ciutat eren els següents: cap a ponent, el que s'alineava amb l'actual carrer dels Apuntadors i carrer de Sant Magí; cap al nord, el que s'alineava amb el carrer dels Bastaixos i es bifurca en els carrers de Sant Miquel i del Sindicat, que condueixen a les carreteres de Sóller i Inca, la qual portava a Pol·lèntia; i cap a llevant, un que s'alineava amb el carrer del Sol i un altre que s'alineava amb el carrer de Sant Alonso.</p><p>L'existència d'un teatre romà ha estat debatuda pels historiadors; actualment, hom pensa que es trobaria a l'illa de cases que es troba a llevant de la plaça de les Tortugues. En aquest cas, es tractaria d'un teatre adjacent al port de Palma, el qual es trobava a la cala que formava antigament el torrent de la Riera i que arribava fins a l'actual Teatre Principal. No obstant això, sembla que Portopí també feia la funció de port auxiliar.</p><p>Tot i la pobresa de les troballes i la decadència dels centres urbans després de la crisi del segle III, es documenta activitat en el sòl durant les èpoques baiximperial, vàndala i romana d'Orient, per bé que sembla que en el moment de la conquesta islàmica la ciutat estava molt poc poblada. En qualsevol cas, entre el període tardoantic i el període islàmic hi hagué una continuïtat poblacional.</p><p>Durant l'Antiguitat Tardana, la rival Pol·lèntia caigué en decadència i Palma romangué la sola ciutat i nucli urbà de l'illa. Com a resultat d'això i del fet de ser la sola població de Mallorca, la ciutat i l'illa s'identificaren com a una mateixa cosa i la ciutat prengué el mateix nom que l'illa, de manera que el topònim Palma s'oblidà. No obstant això, sembla que es conservava parcialment, si més no si el documentat topònim Palma Alta del Repartiment, referit a unes terres al nord de Son Sardina, efectivament està relacionat amb el nom de la Palma romana.</p>"
+        }
+    },
+
+    {
+        "nom": "Catedral de Mallorca",
+        "descripcio": "",
+        "detall": "",
+        "tipus": "llocInteres",
+        "identificador": "",
+        "preu": {
+            "import": "8€",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "971 71 31 33",
+            "email": "",
+            "xarxes" : {
+                "web": "https://www.catedraldemallorca.org/es/",
+                "facebook" : "@catedralmca",
+                "twitter" : "@catedralmca",
+                "instagram": "@catedralmca"
+            }
+        },
+        "puntuacio": 0,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+        ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/catedral1.jpg",
+            "https://beyls.netlify.app/imatges/catedral2.jpg",
+            "https://beyls.netlify.app/imatges/catedral3.jpeg"
+        ],
+        "videos":[
+            {
+                "tipus": "",
+                "url": ""
+            },
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{
+            "address": "Carrer del Palau Reial, s/n",  
+            "lat": 39.567366,
+            "long": 2.648215,
+            "city": "Palma",
+            "Country": "Espanya",
+            "zip": "07001"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "10:00h","out": "14:15h"}
+            ],
+            "dm":[
+                {"in": "10:00h","out": "14:15h"}
+            ],
+            "dx":[
+                {"in": "10:00h","out": "14:15h"}
+            ],
+            "dj": [
+                {"in": "10:00h","out": "14:15h"}
+            ],
+            "dv":[
+                {"in": "10:00h","out": "14:15h"}
+            ],
+            "ds":[
+                {"in": "10:00h","out": "14:15h"}
+            ],
+            "dg":[
+                {"in": "","out": ""}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "historia": "<p>La catedral de Mallorca o Seu de Mallorca (popularment la Seu) és el principal edifici religiós de la ciutat de Palma, seu episcopal de la diòcesi de Mallorca. És d'estil gòtic català, fou construïda entre els segles XIII i XVI i és famosa per la seva rosassa i pel gran espai interior comparat amb la mola exterior. El seu tret principal, però, és la seva situació, a l'acròpoli de la ciutat romana de Palma, davant la mar, amb la muralla als peus i entre el castell de l'Almudaina i el palau episcopal. L'any 1931 la seu fou declarada monument historicoartístic.</p><p>En la localització dalt d'un cingle, en els contraforts paral·lelepipèdics amb boterells i en la proporció entre l'alçada de la nau principal i les laterals s'hi assembla la seu de Manresa. La grandària de l'espai interior és semblant a la de Santa Maria del Mar i procedeix de la reforma introduïda després de la reincorporació del Regne de Mallorca a la Corona d'Aragó. Les semblances amb aquests dos edificis no poden venir d'un arquitecte comú, perquè no hi ha constància documental en els llibres de Fàbrica de la seu de Mallorca de l'arquitecte de Santa Maria del Mar, Berenguer de Montagut. El conjunt fa 120 m de llargària, 40 m d'amplària i 43,95 m d'alçària, i té una superfície de 6.600 m².</p>"
+        }
+    },
+    {
+        "nom": "Castell de Bellver",
+        "descripcio": "",
+        "detall": "",
+        "tipus": "llocInteres",
+        "identificador": "",
+        "preu": {
+            "import": "4€",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "971 735 065",
+            "email": "castelldebellver@palma.cat",
+            "xarxes" : {
+                "web": "https://castelldebellver.palma.cat/portal/PALMA/castelldebellver/castelldebellver_principal1.jsp?codResi=1",
+                "facebook" : "",
+                "twitter" : "",
+                "instagram": ""
+            }
+        },
+        "puntuacio": 0,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+        ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/castellBellver.jpg",
+            "https://beyls.netlify.app/imatges/castellBellver1.jpg",
+            "https://beyls.netlify.app/imatges/castellBellver2.jpg"
+        ],
+        "videos":[
+            {
+                "tipus": "",
+                "url": ""
+            },
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{
+            "address": "Carrer de Camilo José Cela, s/n",
+            "lat": 39.563806,
+            "long": 2.619431,
+            "city": "Palma",
+            "Country": "Espanya",
+            "zip": "07014"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "","out": ""}
+            ],
+            "dm":[
+                {"in": "10:00h","out": "19:00h"}
+            ],
+            "dx":[
+                {"in": "10:00h","out": "19:00h"}
+            ],
+            "dj": [
+                {"in": "10:00h","out": "19:00h"}
+            ],
+            "dv":[
+                {"in": "10:00h","out": "19:00h"}
+            ],
+            "ds":[
+                {"in": "10:00h","out": "19:00h"}
+            ],
+            "dg":[
+                {"in": "10:00h","out": "19:00h"}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "historia": "<p>No es coneix l'autor o autors de les traces originals del cos central de l'edifici, tot i que Pere Salvà està documentat pel llibre de comptes del castell com el mestre que rebia els honoraris més elevats a l'entorn de 1309, i Marcel Durliat també hi va destacar l'aportació de Pons Descoll, arquitecte de la casa reial de Mallorca. Per a la construcció s'aprofitaren les pedreres del mateix puig, alguna de les quals es troba sota mateix de la fortificació, cosa que ha provocat esquerdes en l'edifici. Quan calia pedra més forta, se'n duia de Portals i Santanyí.</p><p>El castell va fer al principi les funcions residencials per les quals fou construït, en temps dels reis Jaume II, Sanç i Jaume III de Mallorca. També hi va fer estada el rei Joan I, fugint de la pesta que atacava el continent (1394). Al s. XVII fou esporàdicament residència d'alguns virreis. Tanmateix, com a fortificació, va patir també diferents setges, el primer, l'any 1343, durant la campanya de reincorporació del Regne de Mallorca a la corona d'Aragó, per Pere el Cerimoniós; el següent, a l'any el 1391, durant la revolta contra el Call, i el darrer, l'any 1521, amb l'únic assalt de la seva història, durant la Segona Germania.</p><p>L'any 1408, el rei Martí l'Humà concedí la senyoria de Bellver a la cartoixa de Valldemossa, la qual des d'aleshores en nomenà el castellà. L'any 1459, arribà a Mallorca el príncep de Viana per tal de prendre possessió dels castells de l'illa, d'acord amb el pacte amb son pare, Joan II, que el feia senyor de Mallorca, però a la fi el rei no li concedí la senyoria ni li cedí el castell de Bellver.</p><p>Com a recinte tancat, des del s. XIV mateix es feu servir de presó, primer de la reina Violant i dels prínceps Jaume III i Elisabet i altres partidaris del rei Jaume III, després de la seva mort a la Batalla de Llucmajor (1349). El 1523, dels agermanats vençuts. El 1639, 1666 i 1667, de bandolers. Durant la Guerra d'Ocupació, de botiflers, i, després de la victòria francoespanyola, d'austriacistes. Al s. XIX, durant la Guerra del Francès, de presos de la Batalla de Bailén i, després, de presos polítics, el primer i el més famós dels quals fou el ministre Gaspar Melchor de Jovellanos (1802-1808), que feu la primera descripció del castell i n'encarregà els primers plans i dibuixos, com també feu una descripció botànica i geològica del pinar circumdant i amb elles fundà el moviment conservacionista del patrimoni. El català Francesc Aragó, que participava en el mesurament del meridià de París, s'hi refugià, acusat d'espia per la població. El seguiren el general antiabsolutista Luis de Lacy y Gautier, que hi fou afusellat (1817), els liberals Esteve Bonet i Perelló i d'altres (1824), i Miquel Bibiloni i Corró (1867), republicans catalanistes com Valentí Almirall (1869), el restaurador de la monarquia borbònica a Espanya, amb Alfons XII, Arsenio Martínez Campo (1874) i diferents carlins. Al s. XX, fou cedit per l'estat a l'ajuntament de Palma, el 1931. Després de la revolta feixista de 1936, hi tancaren 800 presos polítics republicans, els quals foren obligats a construir l'actual carretera d'accés al castell. Entre aquests presos hi havia Alexandre Jaume, que com a diputat havia aconseguit la cessió del castell a la ciutat, i Emili Darder, batlle en el moment de la cessió, tots dos afusellats després.</p>"
+        }
+    },
+    {
+        "nom": "Palau de l'Almudaina",
+        "descripcio": "",
+        "detall": "",
+        "tipus": "llocInteres",
+        "identificador": "",
+        "preu": {
+            "import": "3,50€",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "971 21 41 34",
+            "email": "palaciorealalmudaina@patrimonionacional.es",
+            "xarxes" : {
+                "web": "https://www.patrimonionacional.es/visita/palacio-real-de-la-almudaina",
+                "facebook" : "",
+                "twitter" : "@PatrimNacional",
+                "instagram": "@patrimnacional"
+            }
+        },
+        "puntuacio": 0,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+        ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/almudaina1.jpg",
+            "https://beyls.netlify.app/imatges/almudaina2.jpg",
+            "https://beyls.netlify.app/imatges/almudaina3.jpg"
+        ],
+        "videos":[
+            {
+                "tipus": "",
+                "url": ""
+            },
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{
+            "address": "Carrer del Palau Reial, s/n",
+            "lat": 39.567794,
+            "long": 2.647253,
+            "city": "Palma",
+            "Country": "Espanya",
+            "zip": "07001"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "","out": ""}
+            ],
+            "dm":[
+                {"in": "10:00h","out": "19:00h"}
+            ],
+            "dx":[
+                {"in": "10:00h","out": "19:00h"}
+            ],
+            "dj": [
+                {"in": "10:00h","out": "19:00h"}
+            ],
+            "dv":[
+                {"in": "10:00h","out": "19:00h"}
+            ],
+            "ds":[
+                {"in": "10:00h","out": "19:00h"}
+            ],
+            "dg":[
+                {"in": "10:00h","out": "19:00h"}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "historia": "<p>El palau o castell de l'Almudaina, o, simplement, l'Almudaina, està situat a la ciutat de Palma, al costat de la Seu, i fou la residència històrica dels reis de Mallorca. La seva titularitat i administració corresponen a l'ens públic Patrimoni Nacional, que gestiona els béns de l'estat al servei de la corona.</p><p>El castell recull als seus murs la història de les Illes des dels assentaments megalítics. L'edifici, d'origen romà, és una modificació de l'alcàsser musulmà iniciat el 1281, que es va prolongar fins a 1343, durant els regnats de Jaume II, fill de Jaume I el Conqueridor, Sanç I i Jaume III. Antigament, es diu que el rei Jaume II anava cada dia a resar a la seu, ja que es conta que era un home molt religiós. L'Almudaina fou la seu del Regne mallorquí durant el segle xiv, fins que va passar a Aragó amb Pere IV el 1349.</p>"
+        }
+    },
+    {
+        "nom": "Sóller",
+        "descripcio": "El poble a la vall",
+        "detall": "",
+        "tipus": "poble",
+        "identificador": "",
+        "preu": {
+            "import": "",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "",
+            "email": "",
+            "xarxes" : {
+                "web": "",
+                "facebook" : "",
+                "twitter" : "https://twitter.com/Ajdesoller?ref_src=twsrc%5Etfw",
+                "instagram": ""
+            }
+        },
+        "puntuacio": 4,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/soller.jpg",
+            "https://beyls.netlify.app/imatges/soller1.jpg",
+            "https://beyls.netlify.app/imatges/soller2.jpg",
+            "https://beyls.netlify.app/imatges/soller3.jpg"
+        ],
+        "videos":[
+            {
+                "tipus": "youtube",
+                "url": "https://www.youtube.com/embed/0tYT3yh-Wjs"
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{
+            "address": "",
+            "lat": 39.766856,
+            "long": 2.715211,
+            "city": "Sóller",
+            "Country": "Espanya",
+            "zip": "07100"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dm":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dx":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dj": [
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dv":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "ds":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dg":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "introduccio": "<p>Sóller és un municipi situat a la costa nord-oest de l'illa de Mallorca. Està situat en una vall, a la serra de Tramuntana, i limita amb els municipis de Deià, Fornalutx, Escorca i Bunyola. Està connectat amb un tren que l'enllaça amb la capital de l'illa. També hi ha un túnel per a cotxes —que el dia 29/12/2017 deixà de ser de pagament—, que també l'uneix amb la capital. Per aquesta vall també discorre la carretera Andratx-Pollença. A més, Sóller compta amb un port marítim, el port de Sóller. Són famoses les seves cases construïdes per emigrants sollerics que feren fortuna a les Amèriques i tornaren a principi del segle xx (coneguts popularment com a indianos). </p><p>Sóller és el poble turístic per excel·lència de Mallorca, i així ha estat visitat durant la seva història per nombrosos presonatges il·lustres, d'Isabel II als reis actuals Felip VI i Letícia, passant per actors de Hollywood com Tom Hanks, entre d'altres.[cal citació] Actualment, el principal mitjà de vida és el turisme; tot i que té abundosos conreus d'hortalisses, cítrics i oliveres, els preus baixos han perjudicat molt els darrers anys l'activitat agrícola. Tot i així, té dues tafones en ús, una de les quals a la cooperativa Sant Bartomeu.</p><p>La Vall de Sóller està situada al cor de la Serra de Tramuntana, la qual va rebre el distintiu a Patrimoni Mundial per la UNESCO el 2011.</p>",
+            "historia": "<p>S'hi trobaren vestigis de l'època talaiòtica, dels primitius balears a Muleta, que es remunten a una època compresa entre els anys 5200 i 2700 aC. Al museu de Mallorca hi ha tres estàtues de bronze trobades a la Roca Roja (segles IV-III aC) d'una divinitat bèl·lica de la prehistòria balear, popularment coneguda com a 'Mars Baliaricus', però que sembla tenir més relació amb la divinitat púnica coneguda com a 'Rexef', mena de conjunció de les característiques dels déus 'Ares-Hermes' (Mart-Mercuri).</p><p>L'11 de maig de 1561 una coalició de corsaris algerians, comandats per Otxali i Iusuf-Arrais formaren una esquadra molt potent de 22 galiots, per atacar Mallorca.<p>L'armada, abans d'arribar a Mallorca, va proveir-se d'aigua a Eivissa. Això féu que els mallorquins rebessin l'avís que l'atac començaria per Sóller, per la qual cosa el virrei, Guillem de Rocafull, envià un advertiment al capità de Sóller, Joan Angelats, i als comandaments de Bunyola, Santa Maria i Alaró per tal que donassin ajut a Sóller.</p><p>Els mallorquins sortiren tots cap al Camp de s'Oca, en direcció al Port de Sóller. Desembarcaren uns 1.600 corsaris, sense fer remor, per la qual cosa els guardes de terra no se n'adonaren. Els invasors es dividiren en dos grups: mentre un anà directament cap a la vila, l'altre prengué el camí de la Figuera, i atacà Sóller pel nord, obtenint un gran botí. Els sollerics que havien sortit cap al Port es veren agafats entre dos focs, decidiren atacar els de la part sud. Després esperaren que el segon grup tornàs carregat amb el botí, dones, i nins, als qui pretenien endur-se com a esclaus. Quan els corsaris se sentiren en perill mataren molts dels presoners, i foren perseguits pels mallorquins fins a les penyes. Cal assenyalar dos fets: les valentes dones de can Tamany que liquidaren amb engany uns pirates, i una partida de bandolers que feren gran destrossa entre els sarraïns, per la qual cosa foren perdonats pel rei Felip II.</p><p>Aquests fets es recorden en una festa de Moros i Cristians que es fa el dilluns després del segon diumenge de maig.<p>Arran dels fets dels corsaris, a partir del segle xvi, s'hi construí la Torre Picada i el Castell del Port. També es fortificà una part del poble. D'aquesta darrera construcció militar només en queda un tros de murada devora l'església parroquial.</p><p>Durant la Revolució Industrial, Sóller va arribar a tenir fins a dotze fàbriques i va exportar bona part de la producció (la majoria tèxtil) tant a la resta de Mallorca, com també a França.</p><p>A finals del segle xix hi va haver una crisi agrícola que va afectar la producció de taronges de tota la vall. Com a conseqüència, molts de sollerics començaren a migrar a primer al Llenguadoc i després a la resta de l'estat francès. Aquest fet establí un vincle entre Sóller i França per mitjà dels sollerics que mantenien el contacte amb llur vila natal; a mitjan segle xx, molts de sollerics tornaren. Tot plegat va tenir repercussions en el parlar de Sóller, que, entre altres coses, es caracteritza per tenir força francismes. Un fenomen semblant es va donar al llogaret andritxol de l'Arracó.</p>"
+        }
+    },
+
+    {
+        "nom": "Tramvia de Sóller",
+        "descripcio": "",
+        "detall": "",
+        "tipus": "llocInteres",
+        "identificador": "",
+        "preu": {
+            "import": "7€",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "971 75 20 51",
+            "email": "info@trendesoller.com",
+            "xarxes" : {
+                "web": "http://trendesoller.com/tranvia/",
+                "facebook" : "",
+                "twitter" : "",
+                "instagram": ""
+            }
+        },
+        "puntuacio": 0,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/tren1.jfif",
+            "https://beyls.netlify.app/imatges/tren2.jfif",
+            "https://beyls.netlify.app/imatges/tren1.jfif"
+        ],
+        "videos":[
+            {
+                "tipus": "",
+                "url": ""
+            },
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{
+            "address": "",
+            "lat": 39.764991,
+            "long": 2.715300,
+            "city": "Sóller",
+            "Country": "Espanya",
+            "zip": "07100"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "08:00","out": "17:00"}
+            ],
+            "dm":[
+                {"in": "08:00","out": "17:00"}
+            ],
+            "dx":[
+                {"in": "08:00","out": "17:00"}
+            ],
+            "dj": [
+                {"in": "08:00","out": "17:00"}
+            ],
+            "dv":[
+                {"in": "08:00","out": "17:00"}
+            ],
+            "ds":[
+                {"in": "10:00","out": "17:00"}
+            ],
+            "dg":[
+                {"in": "10:00","out": "17:00"}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "historia": "<p>El tramvia de Sóller és una línia de tramvia ubicada al municipi mallorquí de Sóller, a les Illes Balears. Va ser inaugurat oficialment el 4 d'octubre de 1913 i uneix el poble de Sóller amb el port de Sóller. Circula pels carrers del centre de Sóller i creua els camps i horts de cítrics; passats aquests, transcorre en paral·lel a la Carrera del Port (Ma-11), sobre una via d'amplada similar a la del ferrocarril de Sóller. El seu traçat és obra de l'enginyer Pere Garau, que també va dissenyar la línia que va de Palma a Sóller. Actualment, el tramvia és un dels principals elements representatius d'aquest poble de Mallorca, i és bastant freqüentat pels turistes.</p><p>El tramvia de Sóller és un dels principals elements representatius de la localitat balear. És principalment usat pels turistes que visiten el poble, sobretot durant l'estiu.</p>"
+        }
+    },
+    {
+        "nom": "Jardí botànic de Sóller",
+        "descripcio": "",
+        "detall": "",
+        "tipus": "llocInteres",
+        "identificador": "",
+        "preu": {
+            "import": "8€",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "971 63 40 14",
+            "email": "",
+            "xarxes" : {
+                "web": "https://jardibotanicdesoller.org/",
+                "facebook" : "",
+                "twitter" : "",
+                "instagram": ""
+            }
+        },
+        "puntuacio": 0,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/jardi1.jpg",
+            "https://beyls.netlify.app/imatges/jardi2.jpg",
+            "https://beyls.netlify.app/imatges/jardi3.jpg"
+        ],
+        "videos":[
+            {
+                "tipus": "",
+                "url": ""
+            },
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{
+            "address": "Ctra. Palma-Port de Soller, Km 30,5",
+            "lat": 39.764208,
+            "long": 2.709296,
+            "city": "Sóller",
+            "Country": "Espanya",
+            "zip": "07100"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "","out": ""}
+            ],
+            "dm":[
+                {"in": "10:00","out": "14:00"}
+            ],
+            "dx":[
+                {"in": "10:00","out": "14:00"}
+            ],
+            "dj": [
+                {"in": "10:00","out": "14:00"}
+            ],
+            "dv":[
+                {"in": "10:00","out": "14:00"}
+            ],
+            "ds":[
+                {"in": "10:00","out": "14:00"}
+            ],
+            "dg":[
+                {"in": "10:00","out": "14:00"}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "historia": "El Jardí Botànic de Sóller va iniciar la seva activitat l'any 1985 i va ser obert al públic l'any 1992 com a centre de conservació, recerca i aprenentatge de la flora mediterrània i especialment de la flora baleàrica.</p><p> Es va constituir en fundació l'abril de 1997, de la que en són patrons el Govern de les Illes Balears, el Consell de Mallorca, l'Ajuntament de Sóller, la Universitat de les Illes Balears, la Caixa de Balears “SA NOSTRA”, l'Associació Museu Balear de Ciències Naturals i l'Asociación Ibero-Macaronésica de Jardines Botánicos.</p><p>Els objectius d'aquesta entitat són:</p><p>- La conservació de les espècies endèmiques, rares o en perill d'extinció tant de les Balears com de la resta de les illes mediterrànies i de les seves àrees continentals d'influència.</p><p>- La divulgació i educació mitjançant col·leccions de plantes vives, exposicions, concursos de fotografia, conferències, publicacions monogràfiques i l'edició de material didàctic.</p><p>- La recerca i investigació en biologia de la conservació, biologia reproductiva d'espècies silvestres, horticultura, jardineria, etc.</p>"
+        }
+    },
+
+    {
+        "nom": "Felanitx",
+        "descripcio": "Felanitx un poble ple de sensacions",
+        "detall": "",
+        "tipus": "poble",
+        "identificador": "",
+        "preu": {
+            "import": "",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "",
+            "email": "",
+            "xarxes" : {
+                "web": "",
+                "facebook" : "",
+                "twitter" : "https://twitter.com/AjFelanitx?ref_src=twsrc%5Etfw",
+                "instagram": ""
+            }
+        },
+        "puntuacio": 4,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/felanitx.jpg",
+            "https://beyls.netlify.app/imatges/felanitx1.jpg",
+            "https://beyls.netlify.app/imatges/felanitx2.jfif",
+            "https://beyls.netlify.app/imatges/felanitx3.jpg"
+        ],
+        "videos":[
+            {
+                "tipus": "youtube",
+                "url": "https://www.youtube.com/embed/U3bUcwGFUBY"
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{
+            "address": "",
+            "lat": 39.470193,
+            "long": 3.147967,
+            "city": "Felanitx",
+            "Country": "Espanya",
+            "zip": "07200"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dm":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dx":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dj": [
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dv":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "ds":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dg":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "introduccio": "<p>Felanitx és una ciutat i municipi al sud-est de Mallorca, i forma part de la comarca del Migjorn. La seva extensió és de 171,67 km² i l'any 2011 tenia una població de 18.482 habitants.</p><p>Hi ha dues principals teories de l'origen del topònim. La primera apunta a un origen aràbic del mot, provinent, doncs, dels mots Felhàni o Falhànis, que signifiquen 'fondal' o 'endinsada'. Així, el topònim s'hauria format durant els anys de la dominació musulmana de Mallorca i significaria 'lloc baix', 'vall' o 'fondal'. Una segona teoria, que sembla més versemblant, entén que és un topònim llatí, format pel mot foenum ('fenàs') i els sufixos -alis i -icius: foenalicius. El sufix llatí icius, per influència de l'àrab, esdevé -itx. Més tard, per metàtesi, un fenomen molt comú, passà de fenalitx a felanitx. En documents del segle xiii hi apareixen les dues formes.</p>",
+            "historia": "<p>Els orígens de Felanitx com a població es remunten a l’època de bronze. Fou al voltant de l’any 2000 aC, quan arribaren els primers pobladors, assentant-se en dos nuclis importants de població: al Castell de Santureri i al Puig de Sa Mola. En aquestes dues zones, encara avui, s’hi poden observar diverses coves, ja siguin naturals o fabricades, que servien d’habitatge a aquelles tribus primitives.</p><p>Posteriorment, amb les anomenades “cultura de les navetes” i “cultura talaiòtica”, Felanitx es convertí en un poble ric i podrerós dintre de l’illa de Mallorca. Les restes de construccions i de poblats d’aquella època que avui es conserven, així ho demostren. Destaquen les situades a C’an Gaià i Son Maiol.</p>"
+        }
+    },
+
+    {
+        "nom": "Santuari de Sant Salvador",
+        "descripcio": "",
+        "detall": "",
+        "tipus": "llocInteres",
+        "identificador": "",
+        "preu": {
+            "import": "0€",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "971 580 056",
+            "email": "",
+            "xarxes" : {
+                "web": "",
+                "facebook" : "",
+                "twitter" : "",
+                "instagram": ""
+            }
+        },
+        "puntuacio": 0,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/santSalvador1.jpg",
+            "https://beyls.netlify.app/imatges/santSalvador2.jpg",
+            "https://beyls.netlify.app/imatges/santSalvador3.jpg"
+        ],
+        "videos":[
+            {
+                "tipus": "",
+                "url": ""
+            },
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{
+            "address": "Carretera de Portocolom",
+            "lat": 39.455644,
+            "long": 3.186244,
+            "city": "Felanitx",
+            "Country": "Espanya",
+            "zip": "07200"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "09:00","out": "20:00"}
+            ],
+            "dm":[
+                {"in": "09:00","out": "18:00"}
+            ],
+            "dx":[
+                {"in": "09:00","out": "20:00"}
+            ],
+            "dj": [
+                {"in": "09:00","out": "18:00"}
+            ],
+            "dv":[
+                {"in": "09:00","out": "20:00"}
+            ],
+            "ds":[
+                {"in": "09:00","out": "20:00"}
+            ],
+            "dg":[
+                {"in": "09:00","out": "20:00"}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "historia": "<p>El Santuari de la mare de Déu de Sant Salvador, popularment conegut com a Santuari de Sant Salvador és un monasteri d'origen medieval situat al cim del Puig de Sant Salvador. El Puig de Sant Salvador, amb una altura de 510m és la  major elevació d'aquesta part de l'illa.</p><p>Al cim d'aquest puig es troba l'església que va ser construida al segle XVIII, damunt la capella original del 1348. L'església alberga un retaule gòtic tallat en la primera meitat de segle XV que representa la Passió de Crist. Es tracta de l'únic retaule gòtic conservat a Mallorca.</p><p> També es guarda aquí una escultura de pedra de la Mare de Déu de segle XV. Aquesta figura, objecte de gran devoció, va ser presumptament trobada per un pastor. En el lloc on segons la tradició va ser descoberta aquesta imatge es va construir una capella a principis de segle XX.</p><p>Enfront de l'esplanada principal del santuari s'alça el monument a Crist Rei, una estàtua de coure de 7 m d'alçada de Jesucrist en senyal de benedicció situada sobre un pedestal.</p>"
+        }
+    },
+
+    {
+        "nom": "Castell de Santueri",
+        "descripcio": "",
+        "detall": "",
+        "tipus": "llocInteres",
+        "identificador": "",
+        "preu": {
+            "import": "4€",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "971 580 056",
+            "email": "",
+            "xarxes" : {
+                "web": "http://www.santueri.org/home/ca/Historia/",
+                "facebook" : "",
+                "twitter" : "",
+                "instagram": ""
+            }
+        },
+        "puntuacio": 0,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/castellSantueri1.jpg",
+            "https://beyls.netlify.app/imatges/castellSantueri2.jpg",
+            "https://beyls.netlify.app/imatges/castellSantueri3.jpg"
+        ],
+        "videos":[
+            {
+                "tipus": "",
+                "url": ""
+            },
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{
+            "address": "",
+            "lat": 39.431585482232165,
+            "long": 3.1874390797467873,
+            "city": "Felanitx",
+            "Country": "Espanya",
+            "zip": "07200"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "","out": ""}
+            ],
+            "dm":[
+                {"in": "","out": ""}
+            ],
+            "dx":[
+                {"in": "","out": ""}
+            ],
+            "dj": [
+                {"in": "","out": ""}
+            ],
+            "dv":[
+                {"in": "","out": ""}
+            ],
+            "ds":[
+                {"in": "","out": ""}
+            ],
+            "dg":[
+                {"in": "","out": ""}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "historia": "<p>La zona presenta nombroses coves amb restes arqueològiques molt més antigues que remarquen un ús continuat de l'espai des d'època prehistòrica -documentades des del Bronze antic (al voltant del 2200 aC) que es podria qualificar com un lloc sagrat de culte. D'altra banda, algunes prospeccions realitzades a l'interior del castell han trobat restes que indiquen una ocupació romana i bizantina.Es creu que el recinte ja es va usar com a refugi per la població existent a la zona durant la invasió islàmica (any 903), i que més tard va tornar a ser usat durant la reconquesta cristiana de Jaume I el 1229. És a partir d'aquest moment, després de la conquesta de Mallorca, quan comptem amb més informació del Castell de Santueri, que va passar a mans de Nunyo Sanç fins a la seva mort el 1241, en que fou heretat pel seu nebot Jaume I, Rei de Mallorca.</p><p>El 1248, durant la conquesta de Mallorca pel rei d'Aragó Alfons III, la resistència del castell va ser escassa, rendint-se al cap de pocs dies de setge. Des d'aquesta data i fins a mitjan segle XIV va estar en funcionament davant els continus enfrontaments per la titularitat del Regne de Mallorca. Després, passà a actuar com a lloc de vigilància davant de possibles atacs marítims.A la fi del segle XV pràcticament es troba en desús, encara que fou un punt de resistència en el moviment de la Germanía, enfrontant-se a setges entre 1522 i 1524, sent l'únic dels tres castells roquers que va romandre lleial a la Corona i que resistí l'embat dels agermanats.Transcorreguda aquesta etapa, el castell es va mantenir més o menys actiu davant de possibles amenaces que arribaven des del mar, però la seva degradació i pèrdua d'importància anaren en augment. El 1811 fou venut per l'Estat espanyol a un propietari particular i  abandonà totalment la seva funció de fortalesa.</p>"
+        }
+    },
+
+    {
+        "nom": "Alcúdia",
+        "descripcio": "Història i paisatge",
+        "detall": "",
+        "tipus": "poble",
+        "identificador": "",
+        "preu": {
+            "import": "",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "",
+            "email": "",
+            "xarxes" : {
+                "web": "",
+                "facebook" : "",
+                "twitter" : "https://twitter.com/ajtalcudia?ref_src=twsrc%5Etfw",
+                "instagram": ""
+            }
+        },
+        "puntuacio": 3,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/alcudia1.jpg",
+            "https://beyls.netlify.app/imatges/alcudia2.jpg",
+            "https://beyls.netlify.app/imatges/alcudia3.jpg",
+            "https://beyls.netlify.app/imatges/alcudia4.jpg"
+        ],
+        "videos":[
+            {
+                "tipus": "youtube",
+                "url": "https://www.youtube.com/embed/VhZffTe0b9E"
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{
+            "address": "",
+            "lat": 39.85288634224595,
+            "long": 3.1247099213805236,
+            "city": "Alcúdia",
+            "Country": "Espanya",
+            "zip": ""
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dm":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dx":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dj": [
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dv":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "ds":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dg":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "introduccio": "<p>Alcúdia és un municipi balear situat al nord de Mallorca, que té el títol de ciutat des de 1523; i està situada entre les badies de Pollença i la d'Alcúdia; la seva extensió és de 60 quilòmetres quadrats, i té més de 21.000 habitants. La ciutat té un traçat urbanístic medieval, condicionat pels dos recintes de muralles que l'envolten. Els carrers són estrets i irregulars, alguns edificis conserven elements característics de l'època d'esplendor de la ciutat i són de gran valor arquitectònic. Antigament fou coneguda amb els noms de Pol·lèntia, a l'època dels romans; i Guinyent, els primers anys després de la conquesta.</p>",
+            "historia": "<p>Pol·lèntia fou una de les dues ciutats que els romans fundaren a Mallorca després de la conquesta el segle ii aC, juntament amb Palma. Pol·lèntia va ser un campament romà fins a la dècada dels 70 del segle i aC. Va ser llavors que, segons les excavacions al fòrum, es va reorganitzar l'urbanisme de la ciutat i es va monumentalitzar. Pol·lèntia fou una ciutat rica i pròspera, l'àrea conservada de la qual ocupa unes quinze hectàrees. No obstant això, la ciutat patí un incendi devastador al segle iii i tal vegada un saqueig a mans dels vàndals i les terres de Pol·lèntia varen romandre parcialment o totalment despoblades, i la població medieval cristiana va establir-se en zones rurals.</p><p>L’any 902, els àrabs conqueriren Mallorca i la incorporaren a l’Emirat de Còrdova. L’any 1015 entrà a formar part de la Taifa de Dènia.</p><p>Durant la dominació musulmana (902-1229) Alcúdia fou una alqueria.El seu nom, que significa el pujol, i alguns topònims com Guinyent, Biniatria, Gatamoix o Alcanada, són fidels testimonis de la dominació musulmana.</p><p>Després de la incorporació de Mallorca a la Corona d’Aragó l’any 1229, el rei Jaume I va dividir l’illa en 8 parts.Quatre quedaren en mans del propi monarca i les quatre restants foren per als nobles que havien ajudat en la conquesta.La major part dels territoris d’Alcúdia i la veïna Pollença es repartiren a l’ordre dels Templaris.El primer nucli de població neix entorn a l’alqueria de Guinyent que, molt possiblement ja era un nucli de població abans de la conquesta.</p><p>A partir de l’any 1298 es va iniciar la construcció del primer recinte de muralles, que s’acabà l’any 1362. Les muralles serviren per a la protecció no només de la vila, sinó també del nord de l’illa.  La ciutat d’Alcúdia té un traçat urbanístic medieval, condicionat pels dos recintes de muralles que l’envolten. Els carrers són estrets i irregulars, alguns edificis conserven elements característics de l’època d’esplendor de la ciutat i són de gran valor arquitectònic.</p><p>Desprès, la revolta de les Germanies va encetar uns anys difícils per a tot Mallorca, inclosa Alcúdia. La posició costanera, altre temps avantatjosa, es convertí en la causa de la ruïna: els temuts corsaris arribaren per la costa i saquejaren una i altra vegada la població, com l'atac que va tenir lloc al Cap de Pinar l'any 1558. La inseguretat de les contrades i la fugida cap a Ciutat dels propietaris varen fer que la població d'Alcúdia disminuís considerablement. De fet, el descens va ser tan alt que l'any 1779, durant el regnat de Carles III, el port marítim es va rehabilitat per al comerç internacional amb l'objectiu de fomentar l'activitat econòmica i, al mateix temps, repoblar la ciutat.</p>"
+        }
+    },
+
+    {
+        "nom": "Pollentia",
+        "descripcio": "",
+        "detall": "",
+        "tipus": "llocInteres",
+        "identificador": "",
+        "preu": {
+            "import": "4€",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "971 89 71 02",
+            "email": "",
+            "xarxes" : {
+                "web": "https://www.alcudia.net/Pollentia/es",
+                "facebook" : "https://www.facebook.com/ajtalcudia/",
+                "twitter" : "https://twitter.com/ajtalcudia",
+                "instagram": "https://www.instagram.com/ajuntamentalcudia/"
+            }
+        },
+        "puntuacio": 0,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/Pollentia1.jpg",
+            "https://beyls.netlify.app/imatges/Pollentia2.jpg",
+            "https://beyls.netlify.app/imatges/Pollentia3.jpg"
+        ],
+        "videos":[
+            {
+                "tipus": "",
+                "url": ""
+            },
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{ 
+            "address": "Av. Prínceps d'Espanya, s/n, 07400 Alcúdia, Balearic Islands",
+            "lat": 39.85068176320563,
+            "long": 3.121278154172752,
+            "city": "Alcúdia",
+            "Country": "Espanya",
+            "zip": "07400"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "","out": ""}
+            ],
+            "dm":[
+                {"in": "09:30","out": "15:00"}
+            ],
+            "dx":[
+                {"in": "09:30","out": "15:00"}
+            ],
+            "dj": [
+                {"in": "09:30","out": "15:00"}
+            ],
+            "dv":[
+                {"in": "09:30","out": "15:00"}
+            ],
+            "ds":[
+                {"in": "09:30","out": "15:00"}
+            ],
+            "dg":[
+                {"in": "","out": ""}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "historia": "<p>Pol·lèntia va ser un campament romà fins a la dècada dels 70 del segle i aC. Va ser llavors que, segons les excavacions al fòrum, es va reorganitzar l'urbanisme de la ciutat i es va monumentalitzar. Pol·lèntia fou una ciutat rica i pròspera, l'àrea conservada de la qual ocupa unes quinze hectàrees. No obstant això, la ciutat patí un incendi devastador al segle iii, per bé que la ciutat no es despoblà, puix que s'ha documentat al mateix fòrum la construcció d'una fortificació cap al segle v, tal vegada relacionada amb el saqueig que degué patir el 425 a mans dels vàndals, comandats per Gunderic, i encara va sobreviure l'arribada dels bizantins el 534. En qualsevol cas, les terres de Pol·lèntia varen romandre parcialment o totalment despoblades cap al segle viii, i la població tardoantiga cristiana va establir-se en zones rurals pròximes.</p>"
+        }
+    },
+	
+	{
+        "nom": "Museu Sa Bassa Blanca",
+        "descripcio": "",
+        "detall": "",
+        "tipus": "llocInteres",
+        "identificador": "",
+        "preu": {
+            "import": "10€",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "971 54 98 80",
+            "email": "",
+            "xarxes" : {
+                "web": "https://www.facebook.com/Museosabassablanca",
+                "facebook" : "https://www.facebook.com/ajtalcudia/",
+                "twitter" : "https://twitter.com/museosbb",
+                "instagram": "https://www.instagram.com/msbb_fundacionjakober/"
+            }
+        },
+        "puntuacio": 0,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/museubb1.jpg",
+            "https://beyls.netlify.app/imatges/museubb2.jpg",
+            "https://beyls.netlify.app/imatges/museubb3.jpg"
+        ],
+        "videos":[
+            {
+                "tipus": "",
+                "url": ""
+            },
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{ 
+            "address": "Camino del Collbaix, s/n, 07400 Alcúdia, Mallorca, Balearic Islands",
+            "lat": 39.842854389502456,
+            "long": 3.1788261735198926,
+            "city": "Alcúdia",
+            "Country": "Espanya",
+            "zip": "07400"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "","out": ""}
+            ],
+            "dm":[
+                {"in": "","out": ""}
+            ],
+            "dx":[
+                {"in": "10:00","out": "18:00"}
+            ],
+            "dj": [
+                {"in": "10:00","out": "18:00"}
+            ],
+            "dv":[
+                {"in": "10:00","out": "18:00"}
+            ],
+            "ds":[
+                {"in": "10:00","out": "18:00"}
+            ],
+            "dg":[
+                {"in": "10:00","out": "15:00"}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "historia": "<p>La Fundació es va constituir el 1993 a causa del matrimoni format pels artistes i coleccionistes Yannick Vu i Ben Jakober. Es va acondicionar un petit subterrani de la finca Sa Bassa Blanca per emmagatzemar una particular colecció de retrats infantils del segle XVI al XIX.</p><p>A partir de 1995 es van començar a rebre visites de petits grups particulars i el 2001 es va obrir al públic general.</p><p>Poc a poc es van anar sumant espais a la visita fins que el 2007 ja es va permetre la visita a la finca completa i totes les obres que hi havia. A partir del 2008 diversos premios i reconeixements han estat otorgats fins a ser declarat Patrimoni Històric de les Illes Balears.</p>"
+        }
+    },
+	
+	{
+        "nom": "Esglèsia de Sant Jaume",
+        "descripcio": "",
+        "detall": "",
+        "tipus": "llocInteres",
+        "identificador": "",
+        "preu": {
+            "import": "0€",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "971 54 86 65",
+            "email": "",
+            "xarxes" : {
+                "web": "",
+                "facebook" : "",
+                "twitter" : "",
+                "instagram": ""
+            }
+        },
+        "puntuacio": 0,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/stjaume1.jpg",
+            "https://beyls.netlify.app/imatges/stjaume2.jpg",
+            "https://beyls.netlify.app/imatges/stjaume3.jpg"
+        ],
+        "videos":[
+            {
+                "tipus": "",
+                "url": ""
+            },
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{
+            "address": "Plaça de Jaume Ques, 07400 Alcúdia, Illes Balears",
+            "lat": 39.85166217864816,
+            "long": 3.120748291340235,
+            "city": "Alcúdia",
+            "Country": "Espanya",
+            "zip": "07400"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "","out": ""}
+            ],
+            "dm":[
+                {"in": "10:00","out": "13:00"}
+            ],
+            "dx":[
+                {"in": "10:00","out": "13:00"}
+            ],
+            "dj": [
+                {"in": "10:00","out": "13:00"}
+            ],
+            "dv":[
+                {"in": "10:00","out": "13:00"}
+            ],
+            "ds":[
+                {"in": "10:00","out": "13:00"}
+            ],
+            "dg":[
+                {"in": "10:00","out": "13:00"}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "historia": "<p>La construcció del temple primitiu fou començada pel rei Jaume II cap al 1302, però el 18 de febrer del 1870 es desplomà tota la volta de l'església.  Només quedà la capella del Sant Crist, obra del segle XVI.  Passaren dotze anys des del desplom de l'antiga església fins a la construcció de l'actual, que finalitzà l'any 1893.  L'església, que és d'estil neogòtic, està dedicada a Sant Jaume, patró de la ciutat d'Alcúdia.  Cent anys després de la seva reconstrucció, el 1993 fou consagrat pel Bisbe de Mallorca Teodor Ubeda.</p>"
+        }
+    },
+
+    {
+        "nom": "Artà",
+        "descripcio": "Joia del Llevant",
+        "detall": "",
+        "tipus": "poble",
+        "identificador": "",
+        "preu": {
+            "import": "",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "",
+            "email": "",
+            "xarxes" : {
+                "web": "",
+                "facebook" : "",
+                "twitter" : "https://twitter.com/alternativaarta",
+                "instagram": ""
+            }
+        },
+        "puntuacio": 3,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/arta.jpeg",
+            "https://beyls.netlify.app/imatges/arta1.jpg",
+            "https://beyls.netlify.app/imatges/arta2.jpg",
+            "https://beyls.netlify.app/imatges/arta3.jpg"
+        ],
+        "videos":[
+            {
+                "tipus": "youtube",
+                
+                "url": "https://www.youtube.com/embed/2zryZL5RPYU"
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{
+            "address": "",
+            "lat": 39.69250150820922,  
+            "long": 3.349212068302138,
+            "city": "Artà",
+            "Country": "Espanya",
+            "zip": "07570"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dm":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dx":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dj": [
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dv":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "ds":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dg":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "introduccio": "<p>Artà és una vila i municipi de Mallorca situat al nord-est de l'illa, que pertany a la comarca de Llevant (Mallorca). Compta amb la muntanya més alta de les serres de Llevant: sa Talaia Freda, amb 562 metres d'altitud. Confronta amb Capdepera, Son Servera, Sant Llorenç des Cardassar, Petra i Santa Margalida. A l'edat mitjana també fou conegut amb el nom de l'Almudaina.</p><p>El nom d'Artà apareix documentat en els primers documents catalans del segle xiii, amb les formes Yartan i Artà. Hom ha observat la semblança entre aquest topònim i el d'Artana, a la Plana Baixa, però no hi ha una explicació satisfactòria per la i inicial de la forma Yartan. En qualsevol cas, sembla que és preromà.</p><p>Els habitants d'Artà reben el nom d'artanencs o artaners.</p><p>Fins al segle xv, la vila d'Artà rebia el nom de l'Almudaina, mentre que el nom d'Artà designava tot el districte.</p>",
+            "historia": "<p>Les restes arqueològiques mostren com l'ocupació humana de la contrada artanenca comença en el període pretalaiòtic, tot i que la majoria de jaciments que avui es pot observar corresponen al megalitisme talaiòtic (poblat de ses Païsses, talaiot de sa Canova...). Hi hagué poblats que continuaren habitats en època romana, com segurament fou el cas del que devia estar situat a l'actual puig de Sant Salvador, on també hi han trobat restes talaiòtiques. En època musulmana probablement es bastí dalt d'aquest puig una ciutadella o almudaina per ser refugi i defensa dels pobladors disseminats de la zona. Aleshores, la península artanenca era anomenada Yartân i era uns dels tretze districtes en què es dividia l'illa. Aquest districte incloïa també els actuals termes municipals de Capdepera i Son Cervera. El dia 31 de març de 1230, diumenge del Ram, es rendiren els darrers musulmans resistents a Artà.</p><p>La fundació de la vila està vinculada a l'arribada dels monjos premonstratesos de Santa Maria de Bellpuig, a l'Urgell, que, arran de la conquesta catalana (segle xiii), fundaren el priorat homònim, Santa Maria de Bellpuig. El 1425 l'abat suprimí el priorat artanenc, féu tornar els monjos a l'abadia mare i el lloc esdevengué una casa de camp, que encara es conserva.</p><p>Entre els segles XVI i xviii la població augmentà considerablement. Les activitats agrícoles eren predominants encara que també es desenvolupà una considerable activitat tèxtil. A final del segle xvi, Rafel Serra fundà el convent dels franciscans.</p><p>El 1820 el poble d'Artà va patir els estralls ocasionats per la pesta bubònica, que causà més de 1.200 víctimes. Al segle xix es va produir la segregació de Capdepera i Son Servera. Aleshores el terme d'Artà presentava encara una estructura agrària latifundista en la qual els grans terratinents posseïen bona part de les terres del municipi. A final d'aquesta centúria va adquirir importància l'obra de palma, que emprava sobretot mà d'obra femenina i reportava un complement indispensable per a la subsistència de nombroses famílies pageses. El 1880, la parcel·lació de les terres de la zona nord-occidental de la Devesa de Ferrutx donà lloc al nucli costaner denominat la Colònia de Sant Pere. Es tractava d'una colònia agrícola que, al llarg del segle xx, ha adquirit una funcionalitat turística sense perdre la seva personalitat tradicional.</p><p>El 1921 s'inaugurà la línia de ferrocarril que unia Artà amb Manacor i a partir dels anys seixanta l'economia del municipi es va diversificar arran de l'explosió turística.</p>"
+        }
+    },
+
+    {
+        "nom": "Ermita de Betlem",
+        "descripcio": "",
+        "detall": "",
+        "tipus": "llocInteres",
+        "identificador": "",
+        "preu": {
+            "import": "0€",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "606 09 68 30",
+            "email": "",
+            "xarxes" : {
+                "web": "",
+                "facebook" : "",
+                "twitter" : "",
+                "instagram": ""
+            }
+        },
+        "puntuacio": 0,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/ermitaBetlem1.jpg",
+            "https://beyls.netlify.app/imatges/ermitaBetlem2.jpg",
+            "https://beyls.netlify.app/imatges/ermitaBetlem3.jfif"
+        ],
+        "videos":[
+            {
+                "tipus": "",
+                "url": ""
+            },
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{
+            "address": "Lloc Poligon 5, 48, 07579 Artà, Illes Balears",
+            "lat": 39.737308132165595, 
+            "long": 3.311299611535193,
+            "city": "Artà",
+            "Country": "Espanya",
+            "zip": "07570"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "","out": ""}
+            ],
+            "dm":[
+                {"in": "","out": ""}
+            ],
+            "dx":[
+                {"in": "","out": ""}
+            ],
+            "dj": [
+                {"in": "","out": ""}
+            ],
+            "dv":[
+                {"in": "","out": ""}
+            ],
+            "ds":[
+                {"in": "","out": ""}
+            ],
+            "dg":[
+                {"in": "","out": ""}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "historia": "<p>L'ermita de Betlem està situada a uns 10 Km d'Artà i a uns 280 m d'altura. L'interior conserva obres de l'escultor Adrià Ferran (1774-1842) i del pintor madrileny Manuel Bayeu (1740-1808).</p><p>És una ermita situada en la serra artanense, en les terres de l'antiga alqueria musulmana de Binialgorfa. Va ser fundada (1805) per membres de la comunitat eremítica de sant Honorato de Randa i de la Trinitat de Valldemossa. La comunitat es va traslladar a aquest lloc per la donació de Jaume Morell d'una petita extensió de terra que contenia restes d'una torre de defensa i una almàssera.</p><p>Inaugurada en 1818, durant el segle XIX va anar ampliant-se amb la construcció de cel·les, cuina, refetor i altres dependències. Destaca l'església, obra de Joan Rosselló, beneïda en 1824. L'accés al conjunt es realitza per un ampli camí emmarcat per xiprers. En la façana principal s'observa un rellotge de sol, una petita finestra i una rosassa. A l'interior, de nau única, destaquen la volta amb frescos de la coronació de la Mare de Déu, obra de Francesc Parietti, el retaule major i les set pintures de Manuel Bayeu sobre escenes de la vida de Crist. En l'exterior hi ha vestigis d'antics horts, una era i construccions destinades a magatzems i instal·lacions ramaderes de la comunitat religiosa.</p><p>També es pot veure, a pocs metres de distància, la font anomenada de Na Bernadeta, que proporciona aigua tant a l'ermita com a un molí aixecat en el segle XIX. Al costat de la font hi ha una capella voltada. Es pot accedir per carretera, en ascensió sinuosa, o a peu, practicant senderisme. Els habitants d'Artà pugen anualment en romiatge al lloc.</p>"
+        }
+    },
+
+    {
+        "nom": "Ses Païses",
+        "descripcio": "",
+        "detall": "",
+        "tipus": "llocInteres",
+        "identificador": "",
+        "preu": {
+            "import": "3€",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "619 07 00 10",
+            "email": "museu@arta.cat",
+            "xarxes" : {
+                "web": "http://tourism-mallorca.com/sespaisses/",
+                "facebook" : "",
+                "twitter" : "",
+                "instagram": ""
+            }
+        },
+        "puntuacio": 0,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/sesPaises1.jpg",
+            "https://beyls.netlify.app/imatges/sesPaises2.jpg",
+            "https://beyls.netlify.app/imatges/sesPaises3.jpg"
+        ],
+        "videos":[
+            {
+                "tipus": "",
+                "url": ""
+            },
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{
+            "address": "Lloc Poligon 13, 113, 07570 Artà, Illes Balears",
+            "lat": 39.687176894768406,
+            "long": 3.3552094270281305,
+            "city": "Artà",
+            "Country": "Espanya",
+            "zip": "07570"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "10:00","out": "17:00"}
+            ],
+            "dm":[
+                {"in": "10:00","out": "17:00"}
+            ],
+            "dx":[
+                {"in": "10:00","out": "17:00"}
+            ],
+            "dj": [
+                {"in": "10:00","out": "17:00"}
+            ],
+            "dv":[
+                {"in": "10:00","out": "17:00"}
+            ],
+            "ds":[
+                {"in": "10:00","out": "14:00"}
+            ],
+            "dg":[
+                {"in": "","out": ""}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "historia": "<p>Ses Païsses és un poblat talaiòtic al municipi d'Artà. És dels més complets i ben conservats de Mallorca, en aquest poblat destaca la gran murada ciclòpia, que conserva tot el perímetre de 320 metres i la seva espectacular porta monumental, que s'ha convertit en un dels símbols de la prehistòria de Mallorca.</p><p>És un poblat prehistòric que va ser habitat des de 1100 aC fins a l'any 50 dC. Ocupa una superfície el·líptica de 13.500 m² de planta, envoltat per una murada de 320 metres de diàmetre que es va construir entre 640 i 540 aC.</p><p>Està localitzat sobre un turó suau ocupant una posició central dins l'avall d'Artà, i devia dominar un ample territori que limitava amb el dels poblats de Sos Sastres cap a l'est, el de Sa Badeia cap al nord, el de Son Sureda cap al nord-oest i el de s'Auma Vell cap al sud-oest. Fou declarat monument historicoartístic l'any 1946.</p><p>El poblat es configura al voltant d'un talaiot o turriforme central, entorn del qual es desenvolupen diversos cercles d'habitatges i edificis d'ús social. Els primers a construir-se, adossats a les parets del talaiot, eren petites estances de forma arronyonada, com la 3 i la 5. n una segona corona hi ha habitacions més grans de planta quadrangular, com la 8 i la 9, i més cap a fora, edificis més grans i complexos com el 25 i el 10.</p><p>Al llarg dels més de mil anys d'història les construccions es van abandonant i reconstruint, i passen períodes d'abandonament i de re-ocupació, que les excavacions[1] en curs ens ajuden a interpretar.</p>"
+        }
+    },
+
+    {
+        "nom": "Parc Natural de la Península de Llevant",
+        "descripcio": "",
+        "detall": "",
+        "tipus": "llocInteres",
+        "identificador": "",
+        "preu": {
+            "import": "0€",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "606 09 68 30",
+            "email": "pnllevant@gmail.com",
+            "xarxes" : {
+                "web": "http://parcnaturaldellevant.blogspot.com/",
+                "facebook" : "",
+                "twitter" : "",
+                "instagram": ""
+            }
+        },
+        "puntuacio": 0,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/parcLlevant1.jpg",
+            "https://beyls.netlify.app/imatges/parcLlevant2.jpg",
+            "https://beyls.netlify.app/imatges/parcLlevant3.jpg"
+        ],
+        "videos":[
+            {
+                "tipus": "",
+                "url": ""
+            },
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{
+            "address": "Ctra. MA-3333, km 4,7, 07570 Artà, Illes Balears",
+            "lat": 39.736590128766025,
+            "long": 3.3349391630420087,
+            "city": "Artà",
+            "Country": "Espanya",
+            "zip": "07570"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "09:00","out": "16:00"}
+            ],
+            "dm":[
+                {"in": "09:00","out": "16:00"}
+            ],
+            "dx":[
+                {"in": "09:00","out": "16:00"}
+            ],
+            "dj": [
+                {"in": "09:00","out": "16:00"}
+            ],
+            "dv":[
+                {"in": "09:00","out": "16:00"}
+            ],
+            "ds":[
+                {"in": "09:00","out": "16:00"}
+            ],
+            "dg":[
+                {"in": "","out": ""}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "historia": "<p>Parc natural de la Península de Llevant i les reserves naturals del cap de Ferrutx i del cap des Freu estan ubicades al nord-est de l’illa de Mallorca, a l’extrem septentrional de les serres de Llevant, als termes municipals d’Artà i de Capdepera.</p><p>La gran diversitat d’ambients amb penya-segats costaners, coves i avencs, fonts i torrents, boscs i garrigues, fan d’aquest Parc natural una àrea de gran valor paisatgístic.</p><p>La zona conté un elevat nombre d’espècies endèmiques de les Illes Balears. Pel que fa a la flora, hem de destacar l’estepa joana (Hypericum balearicum) i el coixinet de monja (Teucrium marum subsp. occidentale). Entre els animals endèmics, hi ha el caragol coa de serp (Iberellus balearicus), el pseudoescorpí cavernícola (Chthonius balearicus) i el busqueret de coa llarga (Sylvia balearica).</p><p>El Parc compta amb poblacions de tortugues mediterrànies (Testudo hermanni) i calàpets (Bufo viridis balearica) en recuperació. Entre les aus, hem de destacar l’esparver (Hieraaetus pennatus), el falcó pelegrí (Falco peregrinus), l’escassa moixeta voltonera (Neophron percnocterus), la gavina de bec vermell (Larus audouinii) i el corb marí (Phalacrocorax aristotelis). Tots nidifiquen al Parc i potser en un futur també ho faci la milana (Milvus milvus), ja que s’hi han alliberat individus joves amb aquest objectiu.</p>"
+        }
+    },
+
+    {
+        "nom": "Valldemossa",
+        "descripcio": "El poble de les coques",
+        "detall": "",
+        "tipus": "poble",
+        "identificador": "",
+        "preu": {
+            "import": "",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "",
+            "email": "",
+            "xarxes" : {
+                "web": "",
+                "facebook" : "",
+                "twitter" : "https://twitter.com/AjValldemossa",
+                "instagram": ""
+            }
+        },
+        "puntuacio": 5,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/valldemossa.jpg",
+            "https://beyls.netlify.app/imatges/valldemossa1.jpg",
+            "https://beyls.netlify.app/imatges/valldemossa3.jpg",
+            "https://beyls.netlify.app/imatges/valldemossa2.jpg"
+        ],
+        "videos":[
+            {
+                "tipus": "youtube",
+                
+                "url": "https://www.youtube.com/embed/T0PWpDljU9M"
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{
+            "address": "",
+            "lat": 39.71211843951205, 
+            "long": 2.622556869824148,
+            "city": "Valldemossa",
+            "Country": "Espanya",
+            "zip": "07170"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dm":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dx":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dj": [
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dv":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "ds":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dg":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "introduccio": "<p>Valldemossa és una vila i municipi de la Serra de Tramuntana de Mallorca, a 17 km de la capital, Palma. Limita amb els termes d'Esporles, Banyalbufar, Deià, Bunyola i Palma.</p><p>Situat a la Serra de Tramuntana, a 436 m d'altitud, forma part d'una vall de la Serra de Tramuntana. És ric en fonts i està envoltat d'una abundant i frondosa vegetació.</p><p>Els carrers escarpats i estrets ofereixen un encant especial al poble. A Valldemossa es conserva la casa natal de Santa Catalina Thomàs. En destaca també l'església del segle xiii, molt reformada al segle xviii.</p><p>La seva principal atracció turística és la Cartoixa i el record que hi deixà l'estada de la parella romàntica formada per Chopin i George Sand l'hivern de l'any 1838-39. A més de Chopin, a la Cartoixa han passat personatges importants com Ruben Darío, Jovellanos, L'Arxiduc Lluís Salvador o Manuel de Falla, entre altres. Miramar també és un lloc d'especial interès, on Ramon Llull hi fundà l'escola de llengües per a convertir infidels. Posteriorment, a Miramar, hi hagué la primera impremta de Mallorca on s'imprimí el primer incunable en català de la mà del valldemossí Nicolau Calafat (que dóna nom al CEIP municipal) i de Bartomeu Caldentei.</p><p>De 2014 ençà se celebra una festa de Moros i Cristians, que commemora la resistència valldemossina contra una incursió de corsaris otomans.</p>",
+            "historia": "<p>Els orígens del poble de Valldemossa daten de l'època islàmica.</p><p>Les alqueries, paraula d'origen àrab, eren petites comunitats rurals. Es creu que l'origen del poble era una d'aquestes alqueries fundades a la vall per un noble àrab denominat Mussa o Muça, amb els anys ValldeMussa es convertiria en l'actual nom del poble.</p><p>Les tropes del rei Jaume I van desembarcar l'any 1929 a l'illa de Mallorca, i en pocs mesos van conquistar l'illa, excepte un petit reducte musulmà en la serra de la Tramuntana.</p><p>Jaume II rei de Mallorca mano construir un palau a Valldemossa per al seu fill Sancho I, el qual patia problemes respiratoris i el clima li era favorable. Es creu que el palau es va construir sobre el vell alcàsser del nostre conegut noble Mussa.</p><p>La següent referència històrica important la trobem l'any 1399 on el rei Martin I d'Aragó va cedir el palau del Rei Sancho per a fundar una cartoixa.</p><p>El rei ja tenia al cap la idea des de 1390 i comptava amb el suport d'alguns monjos mallorquins de Valdecristo i el canonge de la catedral de Mallorca Nicolás Cuch. Es va considerar la possibilitat de fer-ho a Bellver o a Valldemossa, i es va fer en aquest últim pel seu millor proveïment d'aigua. El primer prior va ser Don Pedro de Portceli, la dotació econòmica del rei per al projecte va ser de 25 lliures actuals i perpètues.</p><p>L'any 1245 s'inicia la construcció de l'església de Santa María de Valldemossa, l'actual església de Sant Bartomeu.</p><p>Una altra data assenyalada és l'any 1531, neix Catalina Thomas la primera santa mallorquina.</p><p>L'any 1276 Ramón Llull va fundar a Miramar un col·legi de llengües orientals, en el qual tretze frares franciscans es preparaven per a predicar l'evangeli i l'art luliano als musulmans.</p><p>El 13 de Març de 1801 Melchor de Jovellanos va ser detingut i bandejat a Mallorca per ordre del primer ministre Godoy. Va residir en la Cartoixa de Valldemosa fins a l'any 1802 data en la qual va ser traslladat al castell de Bellver.</p><p>La més famosa parella de Valldemosa va residir l'any 1838, Frederick Chopín i George Sand.</p><p>Un altre enamorat de l'illa, l'Arxiduc Lluís Salvador d'Àustria, va realitzar la seva primera visita a Mallorca l'any 1867. Temps després, va fixar la seva residència archiducal en el predi de l'Estaca.</p>"
+        }
+    },
+
+    {
+        "nom": "Cartoixa de Valldemossa",
+        "descripcio": "",
+        "detall": "",
+        "tipus": "llocInteres",
+        "identificador": "",
+        "preu": {
+            "import": "9,5€",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "971 61 21 06",
+            "email": "",
+            "xarxes" : {
+                "web": "https://www.cartoixadevalldemossa.com/",
+                "facebook" : "https://www.facebook.com/cartoixavalldemossa/",
+                "twitter" : "https://twitter.com/sacartoixa",
+                "instagram": "https://www.instagram.com/cartoixavalldemossa/"
+            }
+        },
+        "puntuacio": 0,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/cartujaValldemossa1.jpg",
+            "https://beyls.netlify.app/imatges/cartujaValldemossa2.jpg",
+            "https://beyls.netlify.app/imatges/cartujaValldemossa3.jpg"
+        ],
+        "videos":[
+            {
+                "tipus": "",
+                "url": ""
+            },
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{
+            "address": "Plaça Cartoixa, S/N, 07170 Valldemossa, Illes Balears",
+            "lat": 39.70963298474415, 
+            "long": 2.6222813083472922,
+            "city": "Valldemossa",
+            "Country": "Espanya",
+            "zip": "07170"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "","out": ""}
+            ],
+            "dm":[
+                {"in": "","out": ""}
+            ],
+            "dx":[
+                {"in": "","out": ""}
+            ],
+            "dj": [
+                {"in": "","out": ""}
+            ],
+            "dv":[
+                {"in": "","out": ""}
+            ],
+            "ds":[
+                {"in": "","out": ""}
+            ],
+            "dg":[
+                {"in": "","out": ""}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "historia": "<p>La cartoixa de Valldemossa és un antic monestir cartoixà i conjunt monumental situat a la vila mallorquina de Valldemossa.</p><p>L'origen del conjunt es remunta al temps del rei Jaume II de Mallorca, que escollí aquest excepcional indret de la serra de Tramuntana, situat a més de 400 metres d'altitud, per edificar-hi un palau per al seu fill Sanç, conegut com el 'palau del rei Sanç'. L'any 1399, Martí l'Humà cedí totes les possessions reials de Valldemossa als frares cartoixans. Aquests fundaren la cartoixa i l'habitaren fins al 1835, quan passà a mans privades per la desamortització de Mendizábal.</p><p>Ha atret al llarg de la història personatges il·lustres d'arreu del món –entre els quals destaquen Chopin i la seva companya George Sand–; és un dels principals atractius del municipi i una de les visites preferides dels turistes que arriben a l'illa. L'edifici també ha estat habitat per altres personatges, com Gaspar Melchor de Jovellanos, confinat a Valldemossa per qüestions polítiques, Rubén Darío, Unamuno, Azorín i Santiago Rusiñol. Fins al 2004, el saló de música del palau acollí cada dia actuacions folklòriques a càrrec del parado de Valldemossa i concerts de piano interpretats per destacats pianistes.</p><p>Entre les activitats culturals que tenen lloc a la cartoixa, cal destacar el Festival Chopin, que s'hi celebra cada mes d'agost des del 1981.</p>"
+        }
+    },
+
+    {
+        "nom": "Mueseu Chopin i George Sand",
+        "descripcio": "",
+        "detall": "",
+        "tipus": "llocInteres",
+        "identificador": "",
+        "preu": {
+            "import": "4€",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "696 405 992",
+            "email": "info@celdadechopin.es",
+            "xarxes" : {
+                "web": "http://www.celdadechopin.es/",
+                "facebook" : "",
+                "twitter" : "",
+                "instagram": ""
+            }
+        },
+        "puntuacio": 0,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/museoChopin1.jpg",
+            "https://beyls.netlify.app/imatges/museoChopin2.jpg",
+            "https://beyls.netlify.app/imatges/museoChopin1.jpg"
+        ],
+        "videos":[
+            {
+                "tipus": "",
+                "url": ""
+            },
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{
+            "address": "Plaça Cartoixa, S/N, 07170 Valldemossa, Illes Balears",
+            "lat": 39.70963298474415, 
+            "long": 2.6222813083472922,
+            "city": "Valldemossa",
+            "Country": "Espanya",
+            "zip": "07170"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "9:00","out": "18:00"}
+            ],
+            "dm":[
+                {"in": "9:00","out": "18:00"}
+            ],
+            "dx":[
+                {"in": "9:00","out": "18:00"}
+            ],
+            "dj": [
+                {"in": "9:00","out": "18:00"}
+            ],
+            "dv":[
+                {"in": "9:00","out": "18:00"}
+            ],
+            "ds":[
+                {"in": "9:00","out": "18:00"}
+            ],
+            "dg":[
+                {"in": "9:00","out": "18:00"}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "historia": "<p>Aquesta és l'autèntica i única cel·la que van habitar Frédéric Chopin i George Sand en la Cartoixa de Valldemossa. A l'habitació dormitori es conserva el piano que va utilitzar Chopin al gener i part de febrer de 1839.</p><p>La cel·la es compon de tres espaioses habitacions i un jardí. En 1835 el govern espanyol va expropiar la Cartoixa de Valldemossa i va expulsar als monjos que vivian retirats en les seves cel·les. Aquest mateix any es van començar a llogar a particulars, Chopin i George Sand van llogar la cel·la nº3 (actual cel·la nº4) on van residir del 15 de desembre de 1838 a l'11 de febrer de 1839.</p><p>A la sala central del museu es conserven els documents originals per al lloguer de la cel·la i els comptes de despeses que George Sand i Chopin van tenir a Mallorca entre les quals estan el pagament als metges que van atendre a Chopin i les despeses de transport del piano a Valldemossa.</p><p>El museu conserva l'original de la Carta de presentació i de crèdit que Chopin i George Sand van lliurar al banquer Canut a Palma. També es pot veure una reproducció del dibuix del fill de George Sand, Maurice, titulat 'La Cel·la' on s'aprecia la posició del campanar i que va servir a l'investigador Edouard Ganche per a confirmar la cel·la llogada. En altres vitrines de la cel·la s'exposen documents originals d'aquella epoca per a explicar el període que van compartir Chopin i George Sand a Mallorca.</p>"
+        }
+    },
+
+    {
+        "nom": "Parròquia de Sant Bartomeu",
+        "descripcio": "",
+        "detall": "",
+        "tipus": "llocInteres",
+        "identificador": "",
+        "preu": {
+            "import": "0€",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "971 612 024",
+            "email": "info@celdadechopin.es",
+            "xarxes" : {
+                "web": "https://misas.org/p/parroquia-de-sant-bartomeu-valldemossa-mallorca",
+                "facebook" : "",
+                "twitter" : "",
+                "instagram": ""
+            }
+        },
+        "puntuacio": 0,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/parroquiaSantBartomeu2.jpg",
+            "https://beyls.netlify.app/imatges/parroquiaSantBartomeu1.jpg",
+            "https://beyls.netlify.app/imatges/parroquiaSantBartomeu2.jpg"
+        ],
+        "videos":[
+            {
+                "tipus": "",
+                "url": ""
+            },
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{
+            "address": "Plaça de Santa Catalina Thomàs, 07170 Valldemossa, Illes Balears",
+            "lat": 39.710148, 
+            "long": 2.625369,
+            "city": "Valldemossa",
+            "Country": "Espanya",
+            "zip": "07170"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "9:00","out": "21:00"}
+            ],
+            "dm":[
+                {"in": "9:00","out": "21:00"}
+            ],
+            "dx":[
+                {"in": "9:00","out": "21:00"}
+            ],
+            "dj": [
+                {"in": "9:00","out": "21:00"}
+            ],
+            "dv":[
+                {"in": "9:00","out": "21:00"}
+            ],
+            "ds":[
+                {"in": "9:00","out": "21:00"}
+            ],
+            "dg":[
+                {"in": "9:00","out": "21:00"}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "historia": "<p>Aquesta és l'autèntica i única cel·la que van habitar Frédéric Chopin i George Sand en la Cartoixa de Valldemossa. A l'habitació dormitori es conserva el piano que va utilitzar Chopin al gener i part de febrer de 1839.</p><p>La cel·la es compon de tres espaioses habitacions i un jardí. En 1835 el govern espanyol va expropiar la Cartoixa de Valldemossa i va expulsar als monjos que vivian retirats en les seves cel·les. Aquest mateix any es van començar a llogar a particulars, Chopin i George Sand van llogar la cel·la nº3 (actual cel·la nº4) on van residir del 15 de desembre de 1838 a l'11 de febrer de 1839.</p><p>A la sala central del museu es conserven els documents originals per al lloguer de la cel·la i els comptes de despeses que George Sand i Chopin van tenir a Mallorca entre les quals estan el pagament als metges que van atendre a Chopin i les despeses de transport del piano a Valldemossa.</p><p>La Parròquia de sant Bartomeu està situada en el centre del poble antic. La seva construcció s'inicia en 1235, amb el nom d'Església de Santa María, i és al seu voltant on neix el nucli urbà del poble, el centre cultural i polític de la nova comunitat cristiana. En 1278 el Papa Innocenci IV, per una butlla pontifícia, la va posar sota la protecció de la Santa Seu i va canviar el seu nom original per l'actual, en homenatge a l'apòstol Nathanael (Bartolomé).</p><p>Aquesta església d'estil gòtic s'ha anat transformant amb diferents reformes. En el segle XIV l'any 1350 la seva planta és de creu llatina i dues capelles. En el segle XV s'obre el portal petit. En el segle XVII es va haver d'ampliar i reformar l'estructura; en el 1625 es va obrir el cor e es va instal·lar l'òrgan; entre 1633 i 1639 es van realitzar obres de restauració, es torna obrir el portal petit, profanat per pirates en 1552. Anys més tard es va haver d'apuntalar el cor i consolidar el cementiri davant una possible ensulsiada. En 1669 es construeix la sagristia nova. En el segle XVIII el rector Antonio Aznar ampli l'església afegint el creuer i el presbiteri. En el XIX l'any 1863 van construir la capella del sagrari van reformar la façana i el nou campanar. En el segle XX es van fer una sèrie de reformes amb motiu de la canonització de Catalina Thomàs, la més important el seu campanar construït en 1925 d'estil neoclàssic.</p><p>L'església guarda en el seu interior una nau central amb el seu altar major, dotze capelles amb els seus bellíssims altars i un òrgan amb el seu cor corresponent. Cal destacar la capella del Santíssim i de Santa Catalina Thomàs, amb una preciosa imatge de la santa. Aquesta església va ser erigida amb l'esforç de tots els fills d'aquesta vall; per a ells ha estat i és la seva segona llar, i també el centre de totes les activitats socials i de culte. Es pot visitar en horari de missa.</p>"
+        }
+    },
+
+    {
+        "nom": "Campos",
+        "descripcio": "Història i mercat",
+        "detall": "",
+        "tipus": "poble",
+        "identificador": "",
+        "preu": {
+            "import": "",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "",
+            "email": "",
+            "xarxes" : {
+                "web": "",
+                "facebook" : "",
+                "twitter" : "https://twitter.com/ajuntcampos?ref_src=twsrc%5Etfw",
+                "instagram": ""
+            }
+        },
+        "puntuacio": 1,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/campos1.jpg",
+            "https://beyls.netlify.app/imatges/campos2.jpg",
+            "https://beyls.netlify.app/imatges/campos3.jpeg",
+            "https://beyls.netlify.app/imatges/campos4.jpg"
+        ],
+        "videos":[
+            {
+                "tipus": "youtube",
+                
+                "url": "https://www.youtube.com/embed/I0p9r5uWLN0"
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{
+            "address": "",
+            "lat": 39.43144936753818, 
+            "long": 3.018654301254047,
+            "city": "Campos",
+            "Country": "Espanya",
+            "zip": "07630"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dm":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dx":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dj": [
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dv":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "ds":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dg":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "introduccio": "<p>Campos ha estat poblat des de la prehistòria, si bé els orígens de l'nucli urbà es remunten a l'edat mitjana. Els seus carrers estan plens de detalls que ens traslladen a altres èpoques, entre les quals destaca el carrer Nou (nou), anomenada així des de 1650, on hi ha nombroses cases gòtiques i cinc torres de defensa del segle XVI, distribuïdes pels carrers més antigues de camps, les quals avui en dia estan integrades dins dels habitatges que les acullen.</p><p>El municipi de Campos és pla i compta amb una extensa xarxa de camins rurals ben senyalitzats i asfaltats, el que el converteixen en un bon lloc per a la pràctica de l'ciclisme.</p>",
+            "historia": "<p>El municipi va ser fundat l'any 1300 pel rei Jaume II, a la mateixa època en què es varen crear els altres municipis de l'illa. Llavors va néixer la Universitat de Campos, formada per jurats i un Consell format per prohoms que representaven les diferents categories socials, això va durar fins a mitjan segle XVIII, on amb el Decret de Nova Planta es varen produir canvis que van crear el que avui en dia és l'ajuntament.</p><p>A més a més, a mitjan segle XVII es va construir la torre de Can Cos i més tard l'ajuntament. Al costat s'hi varen construir cases, el qual va provocar que només quedassin unes arcades davall l'ajuntament de la porxada que hi havia abans.</p>"
+        }
+    },
+
+    {
+        "nom": "Torre de Son Duri",
+        "descripcio": "",
+        "detall": "",
+        "tipus": "llocInteres",
+        "identificador": "",
+        "preu": {
+            "import": "0€",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "971 169 500",
+            "email": "",
+            "xarxes" : {
+                "web": "https://www.ajcampos.org/web/intranet/patrimoni-defensiu",
+                "facebook" : "",
+                "twitter" : "",
+                "instagram": ""
+            }
+        },
+        "puntuacio": 0,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/sonduri1.jpg",
+            "https://beyls.netlify.app/imatges/sonduri2.jpg",
+            "https://beyls.netlify.app/imatges/sonduri3.jpg"
+        ],
+        "videos":[
+            {
+                "tipus": "",
+                "url": ""
+            },
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ], 
+        "geoposicionament1":{
+            "address": "07639 Sa Ràpita, Illes Balears",
+            "lat": 39.36249315921061, 
+            "long": 2.9532946323529288,
+            "city": "Campos",
+            "Country": "Espanya",
+            "zip": "07639"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "00:00","out": "23:59"}
+            ],
+            "dm":[
+                {"in": "00:00","out": "23:59"}
+            ],
+            "dx":[
+                {"in": "00:00","out": "23:59"}
+            ],
+            "dj": [
+                {"in": "00:00","out": "23:59"}
+            ],
+            "dv":[
+                {"in": "00:00","out": "23:59"}
+            ],
+            "ds":[
+                {"in": "00:00","out": "23:59"}
+            ],
+            "dg":[
+                {"in": "00:00","out": "23:59"}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "historia": "<p>La Torre de Son Durí va ser una de les diferents torres que rodejaven l'illa de Mallorca com element de prevenció d'atacs pirates i, en cas d'aquests, d'alarma. Per això, en cas d'avistament, s'encenia un foc al centre de la torre que era visible per les altres torres properes, aquestes encenien llavors la seva torre i així consecutivament fins que es cridava a les armes a tots els pobles propers.</p><p>El seu us va decaure en desapareixer la pirateria però durant el segle XX la torre va ser restaurada i es manté fins l'actualitat.</p>"
+        }
+    },
+
+    {
+        "nom": "Basilica de Son Fadrinet",
+        "descripcio": "",
+        "detall": "",
+        "tipus": "llocInteres",
+        "identificador": "",
+        "preu": {
+            "import": "0€",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "",
+            "email": "",
+            "xarxes" : {
+                "web": "",
+                "facebook" : "",
+                "twitter" : "",
+                "instagram": ""
+            }
+        },
+        "puntuacio": 0,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/fadrinet1.png",
+            "https://beyls.netlify.app/imatges/fadrinet2.jpg",
+            "https://beyls.netlify.app/imatges/fadrinet3.png"
+        ],
+        "videos":[
+            {
+                "tipus": "",
+                "url": ""
+            },
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ], 
+        "geoposicionament1":{
+            "address": "07630 Campos, Illes Balears",
+            "lat": 39.43537796581701, 
+            "long": 3.0680473556472316,
+            "city": "Campos",
+            "Country": "Espanya",
+            "zip": "07630"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "","out": ""}
+            ],
+            "dm":[
+                {"in": "08:00","out": "13:00"}
+            ],
+            "dx":[
+                {"in": "08:00","out": "13:00"}
+            ],
+            "dj": [
+                {"in": "08:00","out": "13:00"}
+            ],
+            "dv":[
+                {"in": "08:00","out": "13:00"}
+            ],
+            "ds":[
+                {"in": "08:00","out": "13:00"}
+            ],
+            "dg":[
+                {"in": "08:00","out": "11:30"}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "historia": "<p>Son Fadrinet és un jaciment arqueològic de Campos (Mallorca), on l'any 1988 es trobaren per casualitat les restes d'una basílica paleocristiana de la segona meitat del segle vi i que sembla que s'emprà fins a la conquesta musulmana, al segle x. El conjunt fou excavat per l'Institut Arqueològic Alemany (secció de Madrid) entre el 1997 i el 2000 i es tracta de l'única basílica paleocristiana excavada completament a les Balears.</p><p>El conjunt és format per la basílica, el baptisteri, amb diferents habitacions, els annexos i enterraments. En la tipologia de l'edifici i en els mosaics, s'hi reflecteixen les influències orientals i nord-africanes, que les distingeixen de les de la península Ibèrica. En les excavacions, s'hi trobà un valuós mosaic i monedes romanes d'Orient. Als voltants del jaciment també es trobaren restes d'establiments prehistòrics i dels períodes romà i islàmic i a la finca hi ha una cova amb pintures rupestres (Cova d'en Francina).</p>"
+        }
+    },
+
+    {
+        "nom": "SaPobla",
+        "descripcio": "Molt més que cultius",
+        "detall": "",
+        "tipus": "poble",
+        "identificador": "",
+        "preu": {
+            "import": "",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "",
+            "email": "",
+            "xarxes" : {
+                "web": "http://www.sapobla.cat/",
+                "facebook" : "",
+                "twitter" : "https://twitter.com/ajsapobla?ref_src=twsrc%5Etfw",
+                "instagram": ""
+            }
+        },
+        "puntuacio": 2,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/sapobla1.jpg",
+            "https://beyls.netlify.app/imatges/sapobla2.jpg",
+            "https://beyls.netlify.app/imatges/sapobla3.jpg",
+            "https://beyls.netlify.app/imatges/sapobla1.jpg"            
+        ],
+        "videos":[
+            {
+                "tipus": "youtube",
+                
+                "url": "https://www.youtube.com/embed/f4bMXrYG9UY"
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ], 
+        "geoposicionament1":{
+            "address": "",
+            "lat": 39.76971406999041, 
+            "long": 3.0246557298549384,
+            "city": "Sa Pobla",
+            "Country": "Espanya",
+            "zip": "07420"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dm":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dx":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dj": [
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dv":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "ds":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ],
+            "dg":[
+                {"in": "-","out": "-"},
+                {"in": "-","out": "-"}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "introduccio": "<p>Sa Pobla està situada al nord-est de l'illa de Mallorca, amb una extensió de 48.53 km² i pertany a la mancomunitat del nord. Les seves especials característiques orogràfiques i l'abundància d'aigua en el seu subsòl han caracteritzat el municipi com el principal productor d'horta de l'illa de Mallorca, essent molt destacable el cultiu de la patata primerenca, exportada a Anglaterra; també s'hi fan en abundància mongetes, fraules i síndries, entre altres.</p>",
+            "historia": "<p>De l'època prehistòrica queda la pitjada de disset jaciments arqueològics. Encara es conserven coves de l'època pre-talaiotica. Un d'aquests talaiots és el Claper Gran. Hi ha restes d'enterraments prehistòrics. De l'època romana en queden restes d'àmfores, ceràmica i monedes.</p><p>Els sarraïns designaren el lloc, on actualment s'ubica la vila, amb el nom de Huayar-al fas: Aigua del prat, es tractava l'alqueria de major extensió documentada al Llibre del Repartiment, amb 50 jovades, i depenia del Juz' d'Inkan, com la major part del terme, encara que alguns àmbits perifèrics de l'actual delimitació pertanyien als Juzz de Muruh (Muro) i al de Bulansa (Pollença)</p><p>En el repartiment correspongué a la porció reial, i el Rei les assignà en alou franc a diversos porcioners, Huyalfàs, Adducayras i Sila als homes de Barcelona, Vernissa a l'orde del Temple, Talapi als germans Frener, el Rei es reservà el domini directe de Crestatx, la Marjal i la seva porció de l'Albufera, d'altres ens resulten desconegudes com és el cas de Gaieta. Al llarg del segle XIII s'inicià una lenta colonització dispersa a partir de l'establiment emfitèutic de porcions menors, sobretot a Huialfàs i, a partir de 1280, a Crestatx. Aleshores Mallorca estava conformada per un únic municipi o universitat, però el monarca disposava de batles amb funcions judicials menors arreu del territori, l'actual sa Pobla pertanyia a la batlia d'Inca.</p><p>Al segle xix, Sa Pobla entra dins una època de modernització agrària i la industrialització. En setembre de 1812 es començaren les obres per construir la Casa Consistorial i en 1822 s'inaugurà com l'ajuntament de Sa Pobla. Per primer cop, el tren arriba a la vila i un nou personatge visita Sa Pobla, l'arxiduc. El dia 19 de gener de 1872, l'arxiduc Lluís Salvador d'Àustria-Toscana visità Sa Pobla per comprar la finca de Miramar, propietat del pobler D. Joan Serra. Sa Pobla comença a elaborar el vi i es planten moltes vinyes. Arriba a tenir uns vint-i-tres cellers de vi. En l'actualitat, només queda un celler en funcionament, Bodegues Crestatx, fundat en 1898.</p>"
+        }
+    },
+    
+    {
+        "nom": "Parc Natural de s'Albufera",
+        "descripcio": "",
+        "detall": "",
+        "tipus": "llocInteres",
+        "identificador": "",
+        "preu": {
+            "import": "0€",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "971 892 250",
+            "email": "",
+            "xarxes" : {
+                "web": "https://es.balearsnatura.com/parque_natural/parc-natural-de-salbufera-de-mallorca/#horario",
+                "facebook" : "",
+                "twitter" : "",
+                "instagram": ""
+            }
+        },
+        "puntuacio": 0,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/albufera1.jpg",
+            "https://beyls.netlify.app/imatges/albufera2.jpg",
+            "https://beyls.netlify.app/imatges/albufera3.jpg"
+        ],
+        "videos":[
+            {
+                "tipus": "",
+                "url": ""
+            },
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ], 
+        "geoposicionament1":{ 
+            "address": "Av. de s'Albufera, 07458, Illes Balears",
+            "lat": 39.800352736696524, 
+            "long": 3.118992340312927,
+            "city": "Sa Pobla",
+            "Country": "Espanya",
+            "zip": "07458"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "09:00","out": "18:00"}
+            ],
+            "dm":[
+                {"in": "09:00","out": "18:00"}
+            ],
+            "dx":[
+                {"in": "09:00","out": "18:00"}
+            ],
+            "dj": [
+                {"in": "09:00","out": "18:00"}
+            ],
+            "dv":[
+                {"in": "09:00","out": "18:00"}
+            ],
+            "ds":[
+                {"in": "09:00","out": "18:00"}
+            ],
+            "dg":[
+                {"in": "09:00","out": "18:00"}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "historia": "<p>Aquest parc és la zona humida més extensa de les Illes Balears i esdevé com a una zona d'especial protecció per a les aus. Aquesta zona humida sempre ha estat molt important per a sa Pobla, ja que arribà a ser la finca de regadiu més gran d'Europa.</p><p>L'extensió de l'Albufera antigament era molt més gran, ja que ocupava gran part de les terres que envolten el nucli urbà de sa Pobla. A causa d'aquest fet, la presència de mosquits va fer que la zona fos una font molt important de malalties. A conseqüència d'aquest fet, durant el s. XIX foren molts els intents de dessecar l'aigua de la zona. No fou fins al 1862 quan l'empresa anglesa New Majorica Land Company assumí la dessecació i explotació dels terrenys de l'Albufera.</p>"
+        }
+    },
+
+    {
+        "nom": "Museu de Sant Antoni i el Dimoni",
+        "descripcio": "",
+        "detall": "",
+        "tipus": "llocInteres",
+        "identificador": "",
+        "preu": {
+            "import": "10€",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "971 542 389",
+            "email": "",
+            "xarxes" : {
+                "web": "",
+                "facebook" : "",
+                "twitter" : "",
+                "instagram": ""
+            }
+        },
+        "puntuacio": 0,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/stantoni.jpg",
+            "https://beyls.netlify.app/imatges/stantoni2.jpg",
+            "https://beyls.netlify.app/imatges/stantoni3.JPG"
+        ],
+        "videos":[
+            {
+                "tipus": "",
+                "url": ""
+            },
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{ 
+            "address": "Carrer Antoni Maura, 6 07420 Sa Pobla, Illes Balears",
+            "lat": 39.770012283505395, 
+            "long": 3.0197984460158214,
+            "city": "Sa Pobla",
+            "Country": "Espanya",
+            "zip": "07420"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "","out": ""}
+            ],
+            "dm":[
+                {"in": "10:00","out": "20:00"}
+            ],
+            "dx":[
+                {"in": "10:00","out": "20:00"}
+            ],
+            "dj": [
+                {"in": "10:00","out": "20:00"}
+            ],
+            "dv":[
+                {"in": "10:00","out": "20:00"}
+            ],
+            "ds":[
+                {"in": "","out": ""}
+            ],
+            "dg":[
+                {"in": "","out": ""}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "historia": "<p>Aquest petit museu s'ubica en l'antic casal de Can Planes (s.XIX) i tracte de la iconografia de la festa de Sant Antoni a sa Pobla, patró del poble. En ell podem trobar tots els elements protagonistes que componen la festa, com ara els caparrots, els dimonis, els gegants i altres elements complementaris, els quals només surten el 16 i 17 de gener durant les festes. La visita pot ser guiada pel personal del museu, la qual cosa fa que es pugui entendre encara més l'origen de la festa i tots els elements que la componen.</p>"
+        }
+    },
+
+    {
+        "nom": "Parròquia de Sant Antoni Abat",
+        "descripcio": "",
+        "detall": "",
+        "tipus": "llocInteres",
+        "identificador": "",
+        "preu": {
+            "import": "0€",
+            "coment-preu": ""
+        },
+        "contacte":{
+            "telf": "971 540 294",
+            "email": "",
+            "xarxes" : {
+                "web": "",
+                "facebook" : "",
+                "twitter" : "",
+                "instagram": ""
+            }
+        },
+        "puntuacio": 0,
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            ""
+        ],
+        "imatges":[
+            "https://beyls.netlify.app/imatges/pstantoni1.jpg",
+            "https://beyls.netlify.app/imatges/pstantoni2.jpg",
+            "https://beyls.netlify.app/imatges/pstantoni1.jpg"
+        ],
+        "videos":[
+            {
+                "tipus": "",
+                "url": ""
+            },
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "audio":[
+            {
+                "tipus": "",
+                "url": ""
+            }
+        ],
+        "geoposicionament1":{
+            "address": "Carrer de l'Església, 1, 07420 Sa Pobla, Illes Balears",
+            "lat": 39.76991578811518, 
+            "long": 3.023499227538238,
+            "city": "Sa Pobla",
+            "Country": "Espanya",
+            "zip": "07420"
+        },
+        "geoposicionament2":{
+            "address": "",
+            "lat": 0,
+            "long": 0,
+            "city": "",
+            "Country": "",
+            "zip": ""
+        },
+        "ruta": [
+            {
+                "lat": 0,
+                "long": 0,
+                "imatge":{
+                    "link":"",
+                    "descripcio":""
+                }   
+            }   
+        ],
+        "horari":{
+            "di":[
+                {"in": "","out": ""}
+            ],
+            "dm":[
+                {"in": "09:00","out": "14:00"}
+            ],
+            "dx":[
+                {"in": "09:00","out": "14:00"}
+            ],
+            "dj": [
+                {"in": "09:00","out": "14:00"}
+            ],
+            "dv":[
+                {"in": "09:00","out": "14:00"}
+            ],
+            "ds":[
+                {"in": "09:00","out": "14:00"}
+            ],
+            "dg":[
+                {"in": "","out": ""}
+            ]
+        },
+        "calendari":{
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies":{
+            "historia": "<p>La parròquia té una de les conegudes Mare de Déu Dormida (o del Llit), utilitzada per la festa de l'Assumpció de la Mare de Déu d'agost, del 15 d'agost. Dins el patrimoni de la parròquia, es troba la imatge de Nostra Senyora de Vialfàs, una talla del segle xvi. També disposa d'un bell orgue d'estil renaixentista, construït el 1717 per la nissaga d'orgueners Caymari i restaurat per Gerhard Grenzing entre 1981 i 1986 i que encara està en bon ús.</p>"
+        }
+    }
+
+
+]

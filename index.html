@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Una webapp para descubrir los rincones más bonitos de la costa mallorquina">
+  <meta name="author" content="Carlos Veny, Juanjo Nieto, Joan Alcover">
+  <meta name="generator" content="">
+  <title>Calas de Mallorca - Inicio</title>
+  <meta property="og:site_name" content="Calas de Mallorca">
+  <meta property="og:title" content="Calas de Mallorca - Inicio" />
+  <meta property="og:description"
+    content="Una webapp para descubrir los rincones más bonitos de la costa mallorquina" />
+  <meta property="og:image" itemprop="image" content="imagenes/playa-apple.png">
+  <meta property="og:type" content="website" />
+
+
+  <link href="bootstrap5/css/bootstrap.css" rel="stylesheet">
+  <link href="_css/estilo.css" rel="stylesheet">
+  <link href="_css/fondos.css" rel="stylesheet">
+  <link href="_css/carousel.css" rel="stylesheet">
+  <link href="_css/footer.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Mansalva' rel='stylesheet'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="_css/wise_plantilla.css" rel="stylesheet">
+  <link href="_css/wise_responsive.css" rel="stylesheet">
+
+  <script src="bootstrap5/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="_js/index.js"></script>
+
+  <link rel="icon" href="imagenes/playa-apple.png" type="image/icon type">
+  <link rel="apple-touch-icon" href="imagenes/apple-touch-icon.png">
+</head>
+
+<body id="bg-index" onload="leerIndex(); playAudio()">
+  <!-- menu de navegacion -->
+  <header>
+    <nav class="navbar navbar-expand-xxl navbar-light fixed-top bg-blue">
+      <!--xl nuevo -->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="imagenes/logo.svg" alt="" width="130" height="52">
+        </a>
+        <button class="navbar-toggler btn-navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--btn-navbar-toggler nuevo -->
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="listado.html?calas">Listado</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mapa.html">Mapa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="favoritos.html">Favoritos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-extra" href="listado.html?actividades">Actividades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-extra" href="listado.html?pueblos">Pueblos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- fin menu de navegacion -->
+
+  <!-- carousel de imagenes -->
+  <div id="mi-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#mi-carousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#mi-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#mi-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#mi-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#mi-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img id="carousel-foto-0" class="d-block" alt="...">
+        <div class="container">
+          <div class="carousel-caption text-center">
+            <h1 id="carousel-titulo-0" class="titulo-main"></h1>
+            <p class="subtitulo-main"></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img id="carousel-foto-1" class="d-block" alt="...">
+        <div class="container">
+          <div class="carousel-caption text-center">
+            <h1 class="titulo-main"></h1>
+            <p class="subtitulo-main"></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img id="carousel-foto-2" class="d-block" alt="...">
+        <div class="container">
+          <div class="carousel-caption text-center">
+            <h1 class="titulo-main"></h1>
+            <p class="subtitulo-main"></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img id="carousel-foto-3" class="d-block" alt="...">
+        <div class="container">
+          <div class="carousel-caption text-center">
+            <h1 class="titulo-main"></h1>
+            <p class="subtitulo-main"></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img id="carousel-foto-4" class="d-block" alt="...">
+        <div class="container">
+          <div class="carousel-caption text-center">
+            <h1 class="titulo-main"></h1>
+            <p class="subtitulo-main"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#mi-carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#mi-carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- fin carousel de imagenes -->
+
+  <!-- Bienvenid@ -->
+  <div id="about" class="about top_layer">
+    <div class="container container-wise">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="titlepage">
+            <h2>Bienvenid@</h2>
+            <span>¿Te apetece descubrir algunas de las calas más recónditas y exclusivas de mallorca? ¿Vas a venir a
+              Mallorca y no sabes que calas visitar? Sea cual sea tu motivo, ¡este es tu sitio!. En esta aplicación web
+              podrás encontrar muchas de las mejores calas de Mallorca; ya sea por su localización, sus agua turquesas y
+              transparentes, o la sensación de tener la cala para ti solo.<br> Para tu comodidad te permitimos aplicar
+              diversos
+              filtros, añadir comentarios, ver fotos y la localización de la cala, entre otras cosas. Te animamos a que
+              descubras y disfrutes del paraíso mallorquín gracias a esta web-app. ¡Empieza ya!</span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="img-box">
+            <figure><img class="img-wise" src="imagenes/bienvenido.png" alt="..." /></figure>
+            <a class="boton-wise" href="listado.html?calas">Ir al LISTADO</a>
+            <a class="boton-wise" href="mapa.html">Ir al MAPA</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- fin Bienvenid@ -->
+
+  <!-- Noticias y comentarios -->
+  <div id="service" class="service">
+    <div class="container container-wise">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="titlepage">
+            <h2>Noticias y Comentarios</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-6 text-center mg-bt-md">
+          <a class="twitter-timeline" data-lang="es" data-width="500" data-height="600" data-theme="light"
+            href="https://twitter.com/ConselldeMca?ref_src=twsrc%5Etfw">Tweets by ConselldeMca</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <div class="col-xl-6 m-auto">
+          <div class='wrapper'>
+            <div id="index-contenedor" class='carousel-comentarios'>
+
+            </div>
+          </div>
+
+
+
+
+          <!-- <div class="comments-index">
+            <div class="comment">
+              <div class="comment-avatar">
+                <img src="imagenes/avatar.png">
+              </div>
+              <div class="comment-box">
+                <div class="comment-name my-auto">Gabriel Alomar en <a href="cala.html?0">Cala Tuent</a></div>
+                <div class="comment-text text-start fs-6-comment">Cala muy transitada y sucia. Cuando fui con mi familia
+                  no encontramos ni sitio para aparcar. No la recomiendo</div>
+                <div class="comment-footer">
+                  <div class="d-flex justify-content-between">
+                    <span class="comment-date">25 de Abril de 2021</span>
+                    <div class="comment-stars my-auto">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="comment">
+              <div class="comment-avatar">
+                <img src="imagenes/avatar.png">
+              </div>
+              <div class="comment-box">
+                <div class="comment-name my-auto">Jaume Sureda en <a href="cala.html?2">Cala Varques</a></div>
+                <div class="comment-text text-start fs-6-comment">Cala espectacular y mágica! No la conocia pero no
+                  dudaré en volver. Suele haber medusas.</div>
+                <div class="comment-footer">
+                  <div class="d-flex justify-content-between">
+                    <span class="comment-date">30 de Agosto de 2020</span>
+                    <div class="comment-stars my-auto">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="comment">
+              <div class="comment-avatar">
+                <img src="imagenes/avatar.png">
+              </div>
+              <div class="comment-box">
+                <div class="comment-name my-auto">Carlos Roig en <a href="cala.html?3">Caló des Moro</a></div>
+                <div class="comment-text text-start fs-6-comment">Un paraíso en Mallorca. Recomiendo aparcar en el
+                  parking gratuito y caminar 30 minutos hasta la cala porque toda la zona de alrededor es ACIRE.</div>
+                <div class="comment-footer">
+                  <div class="d-flex justify-content-between">
+                    <span class="comment-date">17 de Julio de 2020</span>
+                    <div class="comment-stars my-auto">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- fin Noticias y comentarios -->
+
+  <!-- Nuestro paraíso -->
+  <div id="paraiso" class="service paraiso">
+    <div class="container container-wise">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="titlepage">
+            <h2>Nuestro paraíso</h2>
+            <span>Mallorca es mundialmente conocida por sus hermosas playas, lo que a veces provoca que por
+              desconocimiento sólo visitemos las que figuran en las guías turísticas: aquellas que son más grandes,
+              masificadas y urbanas. Sin embargo, hay otros parajes de la isla, las calas, a veces sólo conocidas por
+              locales, que te ofrecen otro tipo de turismo playero: entornos naturales vírgenes, aguas cristalinas,
+              poca
+              masificación y la sensación de estar en el paraíso muy pero que muy lejos del mundo.</span>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <video id="video" autoplay loop muted playsinline class="video-calas">
+          <!-- <source src="videos/video-paraiso.mp4" type="video/mp4" /> creado en js para que cargue despues de carousel-->
+          <!-- <source src="videos/video-paraiso.webm" type="video/webm" /> creado en js para que cargue despues de carousel-->
+          ¡Lo sentimos! :( Tu navegador no soporta mp4 ni webm.
+        </video>
+      </div>
+    </div>
+  </div>
+  <!-- fin Nuestro paraíso -->
+
+  <!-- Covid-19 -->
+  <div id="covid19" class="service covid19">
+    <div class="container container-wise">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="titlepage">
+            <h2>Covid-19</h2>
+            <span>Debido a la situación de pandemia mundial que nos ha tocado vivir, desde "Calas de Mallorca"
+              recomendamos que siempre se respete la normativa española vigente y se tenga plena consciencia sobre los
+              actos realizados. El uso de mascarilla es obligatorio en todas las playas de Mallorca y se debe respetar
+              la distancia de seguridad de, como mínimo, 2 metros. Si tiene síntomas o no se encuentra bien, no vaya a
+              ninguna cala ni salga de casa, llame al 061 y le indicarán como proceder. Desde "Calas de Mallorca" nos
+              preocupamos por tu salud.<br>A continuación se puede ver el semáforo actualizado con la situación en la
+              que se encuentran las Islas Baleares.</span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <iframe title="Covid-19 Widget" src="https://cerclemallorca.es/?covid-widget&source=uh" loading="lazy"
+          class="covid19-widget"></iframe>
+      </div>
+    </div>
+  </div>
+  <!-- fin Covid-19 -->
+
+  <!-- Nosotros -->
+  <div id="nosotros" class="service nosotros">
+    <div class="container container-wise">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="titlepage">
+            <h2>Nosotros</h2>
+            <span>Probablemente te estarás preguntando quien está detras de esta aplicación web. Pues bien, somos
+              Carlos, Juanjo y Joan, un grupo de compañeros que estudiamos Ingeniería Informatica en la Universitat de
+              les Illes Balears. Actualmente estamos en tercero, y en la asignatura de Tecnología Multimedia se nos ha
+              propuesto realizar una web-app como trabajo final. La temática era libre y nosotros nos hemos decantado
+              por nuestras calas mallorquinas.<br>Para contactar con nosotros puedes usar las imagenes inferiores como
+              enlace a nuestras redes sociales.</span>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-5 justify-content-between">
+        <div class="col mb-5">
+          <div class="imagen-link-wise">
+            <img src="imagenes/nosotros_carlos.jpg" class="imagen-wise" alt="Carlos">
+            <a class="link-wise" href="https://www.instagram.com/carlos_veny/" target="_blank" rel="noopener">Carlos</a>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="imagen-link-wise">
+            <img src="imagenes/nosotros_juanjo.jpg" class="imagen-wise" alt="Juanjo">
+            <a class="link-wise" href="https://www.instagram.com/juanjo_nieto9/" target="_blank"
+              rel="noopener">Juanjo</a>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="imagen-link-wise">
+            <img src="imagenes/nosotros_joan.jpg" class="imagen-wise" alt="Joan">
+            <a class="link-wise" href="https://www.instagram.com/joan6alcover/" target="_blank" rel="noopener">Joan</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- fin Nosotros -->
+
+  <audio id="index-audio">
+    <source src="audio/mar.mp3" type="audio/mpeg">
+    <source src="audio/mar.ogg" type="audio/ogg">
+    ¡Lo sentimos! :( Tu navegador no soporta mp3 ni ogg.
+  </audio>
+
+  <!-- footer -->
+  <div class="footer-dark">
+    <footer>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-6 col-md-3 item fix-columna">
+            <h3>Enlaces de interés</h3>
+            <ul>
+              <li><a href="https://www.booking.com/index.es.html" target="_blank" rel="noopener">Booking</a></li>
+              <li><a href="https://okrentacar.es/" target="_blank" rel="noopener">Rent a Car</a></li>
+              <li><a href="https://getbootstrap.com/" target="_blank" rel="noopener">Bootstrap</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 item text">
+            <h3>Calas de Mallorca</h3>
+            <p>Una pequeña recopilación de las mejores Calas de Mallorca hecha por un grupo de estudiantes de
+              Ingeniería
+              Informática en la Universitat de les Illes Balears. El formato de presentación es una webapp que usa
+              HTML,
+              CSS y JavaScript.<del></del></p>
+          </div>
+          <div class="col-sm-6 col-md-3 item ir-arriba-titulo fix-columna">
+            <h3>Ir Arriba</h3>
+            <a href="#"><i class="icon ion-arrow-up-c ir-arriba-flecha"></i></a>
+          </div>
+          <div class="col item social">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i
+                class="icon ion-social-facebook"></i></a>
+            <a href="https://twitter.com/home" target="_blank" rel="noopener"><i
+                class="icon ion-social-twitter"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener"><i
+                class="icon ion-social-instagram-outline"></i></a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener"><i
+                class="icon ion-social-youtube"></i></a>
+            <a href="https://github.com/" target="_blank" rel="noopener"><i class="icon ion-social-github"></i></a>
+          </div>
+        </div>
+        <p class="copyright">Calas de Mallorca © 2021</p>
+      </div>
+    </footer>
+  </div>
+  <!-- fin footer -->
+
+</body>
+
+</html>
